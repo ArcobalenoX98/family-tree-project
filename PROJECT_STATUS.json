@@ -1,0 +1,5342 @@
+{
+  "timestamp": "2025-06-20T07:10:16.367Z",
+  "projectStructure": {
+    "files": [
+      ".DS_Store",
+      ".gitignore",
+      "project_sync.js"
+    ],
+    ".git": {
+      "files": [
+        "COMMIT_EDITMSG",
+        "FETCH_HEAD",
+        "HEAD",
+        "config",
+        "description",
+        "index"
+      ],
+      "hooks": {
+        "files": [
+          "applypatch-msg.sample",
+          "commit-msg.sample",
+          "fsmonitor-watchman.sample",
+          "post-update.sample",
+          "pre-applypatch.sample",
+          "pre-commit.sample",
+          "pre-merge-commit.sample",
+          "pre-push.sample",
+          "pre-rebase.sample",
+          "pre-receive.sample",
+          "prepare-commit-msg.sample",
+          "push-to-checkout.sample",
+          "update.sample"
+        ]
+      },
+      "info": {
+        "files": [
+          "exclude"
+        ]
+      },
+      "logs": {
+        "files": [
+          "HEAD"
+        ],
+        "refs": {
+          "heads": {
+            "files": [
+              "branch1",
+              "main"
+            ]
+          },
+          "remotes": {
+            "origin": {
+              "files": [
+                "branch1",
+                "main"
+              ]
+            }
+          }
+        }
+      },
+      "objects": {
+        "11": {
+          "files": [
+            "f02fe2a0061d6e6e1f271b21da95423b448b32"
+          ]
+        },
+        "23": {
+          "files": [
+            "4ffac999ae70df0176722c0bf8a0bb9d95df6a"
+          ]
+        },
+        "24": {
+          "files": [
+            "25c0f745bef4d009cb6661b62fd9dfd62960b0"
+          ]
+        },
+        "33": {
+          "files": [
+            "895ab2002862766f2df205d5783f14cd0c1d74"
+          ]
+        },
+        "48": {
+          "files": [
+            "5d8e49e2bd78b27591a37d88668ecf33e8a2f5"
+          ]
+        },
+        "50": {
+          "files": [
+            "bbfb2d9f1fb1c091f4d8114a71e3063bf7edc6"
+          ]
+        },
+        "51": {
+          "files": [
+            "7d8950d4d80f3636a33b47070027470473a510"
+          ]
+        },
+        "55": {
+          "files": [
+            "7b37c44d5cb352ff331f90e7fba0189cdfa65e"
+          ]
+        },
+        "58": {
+          "files": [
+            "b0f21b1647b34ed23f23fc6488eb4f811c405e"
+          ]
+        },
+        "59": {
+          "files": [
+            "7c7bf53b539f0b15642878d540b2dc37dbfe11"
+          ]
+        },
+        "75": {
+          "files": [
+            "a98a3a09107e685595c30b347d16cc165b3d69"
+          ]
+        },
+        "77": {
+          "files": [
+            "0e9d333ee70e75fe7c0bad7fb13e4f6ed4627a",
+            "4a50f9669a48e17e66ac06076b5055bb040bc5"
+          ]
+        },
+        "97": {
+          "files": [
+            "28af2d81af0efc7985ffc705287be4bad10ba4"
+          ]
+        },
+        "0c": {
+          "files": [
+            "065b924bb5fa4111890dc78b76d68cc1d6d403"
+          ]
+        },
+        "1d": {
+          "files": [
+            "44caa81e3f50506fe0e4aa380d2cd476a178a1"
+          ]
+        },
+        "1f": {
+          "files": [
+            "fef600d959ec9e396d5a260bd3f5b927b2cef8"
+          ]
+        },
+        "3d": {
+          "files": [
+            "bbc453c3027281f2b50fc96ffca6213e1ff799"
+          ]
+        },
+        "5a": {
+          "files": [
+            "07659ef1d4036e1d44e477ba4b78bb7476b58e"
+          ]
+        },
+        "7a": {
+          "files": [
+            "390c8ed7411b8e5ec93d8aeeddcbc3ccdd2180"
+          ]
+        },
+        "a5": {
+          "files": [
+            "47bf36d8d11a4f89c59c144f24795749086dd1"
+          ]
+        },
+        "a7": {
+          "files": [
+            "cea0b0678120a1b590d1b6592c7318039b9179"
+          ]
+        },
+        "b5": {
+          "files": [
+            "8e52b965f6f9f340400a843f85ba4bd8156851"
+          ]
+        },
+        "bb": {
+          "files": [
+            "cf80cca93e72ac5583c66d220957216a001f94"
+          ]
+        },
+        "bc": {
+          "files": [
+            "b0a42beec2214930899dacc3a8ef91cf256a92",
+            "f7f67c331fde7364abc03398401e825dc0297b"
+          ]
+        },
+        "c7": {
+          "files": [
+            "336ab4b2367c7f6e10ad741d9018f1230bfcdc"
+          ]
+        },
+        "dd": {
+          "files": [
+            "e16aaf3671c5f9770aed03d3db0b35486b8357"
+          ]
+        },
+        "e7": {
+          "files": [
+            "b8dfb1b2a60bd50538bec9f876511b9cac21e3"
+          ]
+        },
+        "f6": {
+          "files": [
+            "913154345dbceb3a705e2583ed9afb3857924e"
+          ]
+        },
+        "info": {},
+        "pack": {}
+      },
+      "refs": {
+        "heads": {
+          "files": [
+            "branch1",
+            "main"
+          ]
+        },
+        "remotes": {
+          "origin": {
+            "files": [
+              "branch1",
+              "main"
+            ]
+          }
+        },
+        "tags": {}
+      }
+    },
+    "client": {
+      "files": [
+        ".DS_Store",
+        ".gitignore",
+        "README.md",
+        "index.html",
+        "package-lock.json",
+        "package.json",
+        "tsconfig.app.json",
+        "tsconfig.json",
+        "tsconfig.node.json",
+        "vite.config.ts"
+      ],
+      ".vscode": {
+        "files": [
+          "extensions.json"
+        ]
+      },
+      "node_modules": {
+        ".bin": {
+          "files": [
+            "esbuild",
+            "he",
+            "nanoid",
+            "parser",
+            "rollup",
+            "tsc",
+            "tsserver",
+            "vite",
+            "vue-tsc"
+          ]
+        },
+        "files": [
+          ".package-lock.json"
+        ],
+        ".vite": {
+          "deps": {
+            "files": [
+              "_metadata.json",
+              "package.json",
+              "vue.js",
+              "vue.js.map"
+            ]
+          }
+        },
+        ".vite-temp": {},
+        "@babel": {
+          "helper-string-parser": {
+            "files": [
+              "LICENSE",
+              "README.md",
+              "package.json"
+            ],
+            "lib": {
+              "files": [
+                "index.js",
+                "index.js.map"
+              ]
+            }
+          },
+          "helper-validator-identifier": {
+            "files": [
+              "LICENSE",
+              "README.md",
+              "package.json"
+            ],
+            "lib": {
+              "files": [
+                "identifier.js",
+                "identifier.js.map",
+                "index.js",
+                "index.js.map",
+                "keyword.js",
+                "keyword.js.map"
+              ]
+            }
+          },
+          "parser": {
+            "files": [
+              "CHANGELOG.md",
+              "LICENSE",
+              "README.md",
+              "package.json"
+            ],
+            "bin": {
+              "files": [
+                "babel-parser.js"
+              ]
+            },
+            "lib": {
+              "files": [
+                "index.js",
+                "index.js.map"
+              ]
+            },
+            "typings": {
+              "files": [
+                "babel-parser.d.ts"
+              ]
+            }
+          },
+          "types": {
+            "files": [
+              "LICENSE",
+              "README.md",
+              "package.json"
+            ],
+            "lib": {
+              "asserts": {
+                "files": [
+                  "assertNode.js",
+                  "assertNode.js.map"
+                ],
+                "generated": {
+                  "files": [
+                    "index.js",
+                    "index.js.map"
+                  ]
+                }
+              },
+              "ast-types": {
+                "generated": {
+                  "files": [
+                    "index.js",
+                    "index.js.map"
+                  ]
+                }
+              },
+              "builders": {
+                "flow": {
+                  "files": [
+                    "createFlowUnionType.js",
+                    "createFlowUnionType.js.map",
+                    "createTypeAnnotationBasedOnTypeof.js",
+                    "createTypeAnnotationBasedOnTypeof.js.map"
+                  ]
+                },
+                "generated": {
+                  "files": [
+                    "index.js",
+                    "index.js.map",
+                    "lowercase.js",
+                    "lowercase.js.map",
+                    "uppercase.js",
+                    "uppercase.js.map"
+                  ]
+                },
+                "files": [
+                  "productions.js",
+                  "productions.js.map",
+                  "validateNode.js",
+                  "validateNode.js.map"
+                ],
+                "react": {
+                  "files": [
+                    "buildChildren.js",
+                    "buildChildren.js.map"
+                  ]
+                },
+                "typescript": {
+                  "files": [
+                    "createTSUnionType.js",
+                    "createTSUnionType.js.map"
+                  ]
+                }
+              },
+              "clone": {
+                "files": [
+                  "clone.js",
+                  "clone.js.map",
+                  "cloneDeep.js",
+                  "cloneDeep.js.map",
+                  "cloneDeepWithoutLoc.js",
+                  "cloneDeepWithoutLoc.js.map",
+                  "cloneNode.js",
+                  "cloneNode.js.map",
+                  "cloneWithoutLoc.js",
+                  "cloneWithoutLoc.js.map"
+                ]
+              },
+              "comments": {
+                "files": [
+                  "addComment.js",
+                  "addComment.js.map",
+                  "addComments.js",
+                  "addComments.js.map",
+                  "inheritInnerComments.js",
+                  "inheritInnerComments.js.map",
+                  "inheritLeadingComments.js",
+                  "inheritLeadingComments.js.map",
+                  "inheritTrailingComments.js",
+                  "inheritTrailingComments.js.map",
+                  "inheritsComments.js",
+                  "inheritsComments.js.map",
+                  "removeComments.js",
+                  "removeComments.js.map"
+                ]
+              },
+              "constants": {
+                "generated": {
+                  "files": [
+                    "index.js",
+                    "index.js.map"
+                  ]
+                },
+                "files": [
+                  "index.js",
+                  "index.js.map"
+                ]
+              },
+              "converters": {
+                "files": [
+                  "ensureBlock.js",
+                  "ensureBlock.js.map",
+                  "gatherSequenceExpressions.js",
+                  "gatherSequenceExpressions.js.map",
+                  "toBindingIdentifierName.js",
+                  "toBindingIdentifierName.js.map",
+                  "toBlock.js",
+                  "toBlock.js.map",
+                  "toComputedKey.js",
+                  "toComputedKey.js.map",
+                  "toExpression.js",
+                  "toExpression.js.map",
+                  "toIdentifier.js",
+                  "toIdentifier.js.map",
+                  "toKeyAlias.js",
+                  "toKeyAlias.js.map",
+                  "toSequenceExpression.js",
+                  "toSequenceExpression.js.map",
+                  "toStatement.js",
+                  "toStatement.js.map",
+                  "valueToNode.js",
+                  "valueToNode.js.map"
+                ]
+              },
+              "definitions": {
+                "files": [
+                  "core.js",
+                  "core.js.map",
+                  "deprecated-aliases.js",
+                  "deprecated-aliases.js.map",
+                  "experimental.js",
+                  "experimental.js.map",
+                  "flow.js",
+                  "flow.js.map",
+                  "index.js",
+                  "index.js.map",
+                  "jsx.js",
+                  "jsx.js.map",
+                  "misc.js",
+                  "misc.js.map",
+                  "placeholders.js",
+                  "placeholders.js.map",
+                  "typescript.js",
+                  "typescript.js.map",
+                  "utils.js",
+                  "utils.js.map"
+                ]
+              },
+              "files": [
+                "index-legacy.d.ts",
+                "index.d.ts",
+                "index.js",
+                "index.js.flow",
+                "index.js.map"
+              ],
+              "modifications": {
+                "files": [
+                  "appendToMemberExpression.js",
+                  "appendToMemberExpression.js.map",
+                  "inherits.js",
+                  "inherits.js.map",
+                  "prependToMemberExpression.js",
+                  "prependToMemberExpression.js.map",
+                  "removeProperties.js",
+                  "removeProperties.js.map",
+                  "removePropertiesDeep.js",
+                  "removePropertiesDeep.js.map"
+                ],
+                "flow": {
+                  "files": [
+                    "removeTypeDuplicates.js",
+                    "removeTypeDuplicates.js.map"
+                  ]
+                },
+                "typescript": {
+                  "files": [
+                    "removeTypeDuplicates.js",
+                    "removeTypeDuplicates.js.map"
+                  ]
+                }
+              },
+              "retrievers": {
+                "files": [
+                  "getAssignmentIdentifiers.js",
+                  "getAssignmentIdentifiers.js.map",
+                  "getBindingIdentifiers.js",
+                  "getBindingIdentifiers.js.map",
+                  "getFunctionName.js",
+                  "getFunctionName.js.map",
+                  "getOuterBindingIdentifiers.js",
+                  "getOuterBindingIdentifiers.js.map"
+                ]
+              },
+              "traverse": {
+                "files": [
+                  "traverse.js",
+                  "traverse.js.map",
+                  "traverseFast.js",
+                  "traverseFast.js.map"
+                ]
+              },
+              "utils": {
+                "files": [
+                  "deprecationWarning.js",
+                  "deprecationWarning.js.map",
+                  "inherit.js",
+                  "inherit.js.map",
+                  "shallowEqual.js",
+                  "shallowEqual.js.map"
+                ],
+                "react": {
+                  "files": [
+                    "cleanJSXElementLiteralChild.js",
+                    "cleanJSXElementLiteralChild.js.map"
+                  ]
+                }
+              },
+              "validators": {
+                "files": [
+                  "buildMatchMemberExpression.js",
+                  "buildMatchMemberExpression.js.map",
+                  "is.js",
+                  "is.js.map",
+                  "isBinding.js",
+                  "isBinding.js.map",
+                  "isBlockScoped.js",
+                  "isBlockScoped.js.map",
+                  "isImmutable.js",
+                  "isImmutable.js.map",
+                  "isLet.js",
+                  "isLet.js.map",
+                  "isNode.js",
+                  "isNode.js.map",
+                  "isNodesEquivalent.js",
+                  "isNodesEquivalent.js.map",
+                  "isPlaceholderType.js",
+                  "isPlaceholderType.js.map",
+                  "isReferenced.js",
+                  "isReferenced.js.map",
+                  "isScope.js",
+                  "isScope.js.map",
+                  "isSpecifierDefault.js",
+                  "isSpecifierDefault.js.map",
+                  "isType.js",
+                  "isType.js.map",
+                  "isValidES3Identifier.js",
+                  "isValidES3Identifier.js.map",
+                  "isValidIdentifier.js",
+                  "isValidIdentifier.js.map",
+                  "isVar.js",
+                  "isVar.js.map",
+                  "matchesPattern.js",
+                  "matchesPattern.js.map",
+                  "validate.js",
+                  "validate.js.map"
+                ],
+                "generated": {
+                  "files": [
+                    "index.js",
+                    "index.js.map"
+                  ]
+                },
+                "react": {
+                  "files": [
+                    "isCompatTag.js",
+                    "isCompatTag.js.map",
+                    "isReactComponent.js",
+                    "isReactComponent.js.map"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "@esbuild": {
+          "darwin-arm64": {
+            "files": [
+              "README.md",
+              "package.json"
+            ],
+            "bin": {
+              "files": [
+                "esbuild"
+              ]
+            }
+          }
+        },
+        "@jridgewell": {
+          "sourcemap-codec": {
+            "files": [
+              "LICENSE",
+              "README.md",
+              "package.json"
+            ],
+            "dist": {
+              "files": [
+                "sourcemap-codec.mjs",
+                "sourcemap-codec.mjs.map",
+                "sourcemap-codec.umd.js",
+                "sourcemap-codec.umd.js.map"
+              ],
+              "types": {
+                "files": [
+                  "scopes.d.ts",
+                  "sourcemap-codec.d.ts",
+                  "strings.d.ts",
+                  "vlq.d.ts"
+                ]
+              }
+            }
+          }
+        },
+        "@rollup": {
+          "rollup-darwin-arm64": {
+            "files": [
+              "README.md",
+              "package.json",
+              "rollup.darwin-arm64.node"
+            ]
+          }
+        },
+        "@types": {
+          "estree": {
+            "files": [
+              "LICENSE",
+              "README.md",
+              "flow.d.ts",
+              "index.d.ts",
+              "package.json"
+            ]
+          }
+        },
+        "@vitejs": {
+          "plugin-vue": {
+            "files": [
+              "LICENSE",
+              "README.md",
+              "package.json"
+            ],
+            "dist": {
+              "files": [
+                "index.cjs",
+                "index.d.cts",
+                "index.d.mts",
+                "index.d.ts",
+                "index.mjs"
+              ]
+            }
+          }
+        },
+        "@volar": {
+          "language-core": {
+            "files": [
+              "LICENSE",
+              "index.d.ts",
+              "index.js",
+              "package.json"
+            ],
+            "lib": {
+              "files": [
+                "editor.d.ts",
+                "editor.js",
+                "editorFeatures.d.ts",
+                "editorFeatures.js",
+                "linkedCodeMap.d.ts",
+                "linkedCodeMap.js",
+                "types.d.ts",
+                "types.js",
+                "utils.d.ts",
+                "utils.js"
+              ]
+            }
+          },
+          "source-map": {
+            "files": [
+              "LICENSE",
+              "README.md",
+              "index.d.ts",
+              "index.js",
+              "package.json"
+            ],
+            "lib": {
+              "files": [
+                "binarySearch.d.ts",
+                "binarySearch.js",
+                "sourceMap.d.ts",
+                "sourceMap.js",
+                "translateOffset.d.ts",
+                "translateOffset.js"
+              ]
+            }
+          },
+          "typescript": {
+            "files": [
+              "LICENSE",
+              "index.d.ts",
+              "index.js",
+              "package.json"
+            ],
+            "lib": {
+              "files": [
+                "common.d.ts",
+                "common.js",
+                "resolveModuleName.d.ts",
+                "resolveModuleName.js"
+              ],
+              "node": {
+                "files": [
+                  "decorateLanguageServiceHost.d.ts",
+                  "decorateLanguageServiceHost.js",
+                  "decorateProgram.d.ts",
+                  "decorateProgram.js",
+                  "dedupe.d.ts",
+                  "dedupe.js",
+                  "proxyCreateProgram.d.ts",
+                  "proxyCreateProgram.js",
+                  "proxyLanguageService.d.ts",
+                  "proxyLanguageService.js",
+                  "transform.d.ts",
+                  "transform.js",
+                  "utils.d.ts",
+                  "utils.js"
+                ]
+              },
+              "protocol": {
+                "files": [
+                  "createProject.d.ts",
+                  "createProject.js",
+                  "createSys.d.ts",
+                  "createSys.js"
+                ]
+              },
+              "quickstart": {
+                "files": [
+                  "createAsyncLanguageServicePlugin.d.ts",
+                  "createAsyncLanguageServicePlugin.js",
+                  "createLanguageServicePlugin.d.ts",
+                  "createLanguageServicePlugin.js",
+                  "languageServicePluginCommon.d.ts",
+                  "languageServicePluginCommon.js",
+                  "runTsc.d.ts",
+                  "runTsc.js"
+                ]
+              },
+              "typescript": {
+                "files": [
+                  "core.d.ts",
+                  "core.js",
+                  "corePublic.d.ts",
+                  "corePublic.js",
+                  "path.d.ts",
+                  "path.js",
+                  "types.d.ts",
+                  "types.js",
+                  "utilities.d.ts",
+                  "utilities.js"
+                ]
+              }
+            }
+          }
+        },
+        "@vue": {
+          "compiler-core": {
+            "files": [
+              "LICENSE",
+              "README.md",
+              "index.js",
+              "package.json"
+            ],
+            "dist": {
+              "files": [
+                "compiler-core.cjs.js",
+                "compiler-core.cjs.prod.js",
+                "compiler-core.d.ts",
+                "compiler-core.esm-bundler.js"
+              ]
+            }
+          },
+          "compiler-dom": {
+            "files": [
+              "LICENSE",
+              "README.md",
+              "index.js",
+              "package.json"
+            ],
+            "dist": {
+              "files": [
+                "compiler-dom.cjs.js",
+                "compiler-dom.cjs.prod.js",
+                "compiler-dom.d.ts",
+                "compiler-dom.esm-browser.js",
+                "compiler-dom.esm-browser.prod.js",
+                "compiler-dom.esm-bundler.js",
+                "compiler-dom.global.js",
+                "compiler-dom.global.prod.js"
+              ]
+            }
+          },
+          "compiler-sfc": {
+            "files": [
+              "LICENSE",
+              "README.md",
+              "package.json"
+            ],
+            "dist": {
+              "files": [
+                "compiler-sfc.cjs.js",
+                "compiler-sfc.d.ts",
+                "compiler-sfc.esm-browser.js"
+              ]
+            }
+          },
+          "compiler-ssr": {
+            "files": [
+              "LICENSE",
+              "README.md",
+              "package.json"
+            ],
+            "dist": {
+              "files": [
+                "compiler-ssr.cjs.js",
+                "compiler-ssr.d.ts"
+              ]
+            }
+          },
+          "compiler-vue2": {
+            "files": [
+              "README.md",
+              "browser.js",
+              "build.js",
+              "index.js",
+              "package.json"
+            ],
+            "types": {
+              "files": [
+                "index.d.ts"
+              ]
+            }
+          },
+          "language-core": {
+            "files": [
+              "LICENSE",
+              "index.d.ts",
+              "index.js",
+              "package.json"
+            ],
+            "lib": {
+              "codegen": {
+                "files": [
+                  "codeFeatures.d.ts",
+                  "codeFeatures.js",
+                  "globalTypes.d.ts",
+                  "globalTypes.js",
+                  "inlayHints.d.ts",
+                  "inlayHints.js",
+                  "localTypes.d.ts",
+                  "localTypes.js"
+                ],
+                "script": {
+                  "files": [
+                    "component.d.ts",
+                    "component.js",
+                    "componentSelf.d.ts",
+                    "componentSelf.js",
+                    "context.d.ts",
+                    "context.js",
+                    "index.d.ts",
+                    "index.js",
+                    "scriptSetup.d.ts",
+                    "scriptSetup.js",
+                    "src.d.ts",
+                    "src.js",
+                    "template.d.ts",
+                    "template.js"
+                  ]
+                },
+                "style": {
+                  "files": [
+                    "classProperty.d.ts",
+                    "classProperty.js",
+                    "modules.d.ts",
+                    "modules.js",
+                    "scopedClasses.d.ts",
+                    "scopedClasses.js"
+                  ]
+                },
+                "template": {
+                  "files": [
+                    "context.d.ts",
+                    "context.js",
+                    "element.d.ts",
+                    "element.js",
+                    "elementChildren.d.ts",
+                    "elementChildren.js",
+                    "elementDirectives.d.ts",
+                    "elementDirectives.js",
+                    "elementEvents.d.ts",
+                    "elementEvents.js",
+                    "elementProps.d.ts",
+                    "elementProps.js",
+                    "index.d.ts",
+                    "index.js",
+                    "interpolation.d.ts",
+                    "interpolation.js",
+                    "objectProperty.d.ts",
+                    "objectProperty.js",
+                    "propertyAccess.d.ts",
+                    "propertyAccess.js",
+                    "slotOutlet.d.ts",
+                    "slotOutlet.js",
+                    "styleScopedClasses.d.ts",
+                    "styleScopedClasses.js",
+                    "templateChild.d.ts",
+                    "templateChild.js",
+                    "vFor.d.ts",
+                    "vFor.js",
+                    "vIf.d.ts",
+                    "vIf.js",
+                    "vSlot.d.ts",
+                    "vSlot.js"
+                  ]
+                },
+                "utils": {
+                  "files": [
+                    "camelized.d.ts",
+                    "camelized.js",
+                    "escaped.d.ts",
+                    "escaped.js",
+                    "index.d.ts",
+                    "index.js",
+                    "stringLiteralKey.d.ts",
+                    "stringLiteralKey.js",
+                    "unicode.d.ts",
+                    "unicode.js",
+                    "wrapWith.d.ts",
+                    "wrapWith.js"
+                  ]
+                }
+              },
+              "files": [
+                "languagePlugin.d.ts",
+                "languagePlugin.js",
+                "plugins.d.ts",
+                "plugins.js",
+                "types.d.ts",
+                "types.js"
+              ],
+              "parsers": {
+                "files": [
+                  "scriptRanges.d.ts",
+                  "scriptRanges.js",
+                  "scriptSetupRanges.d.ts",
+                  "scriptSetupRanges.js",
+                  "vueCompilerOptions.d.ts",
+                  "vueCompilerOptions.js"
+                ]
+              },
+              "plugins": {
+                "files": [
+                  "file-html.d.ts",
+                  "file-html.js",
+                  "file-md.d.ts",
+                  "file-md.js",
+                  "file-vue.d.ts",
+                  "file-vue.js",
+                  "shared.d.ts",
+                  "shared.js",
+                  "vue-root-tags.d.ts",
+                  "vue-root-tags.js",
+                  "vue-script-js.d.ts",
+                  "vue-script-js.js",
+                  "vue-sfc-customblocks.d.ts",
+                  "vue-sfc-customblocks.js",
+                  "vue-sfc-scripts.d.ts",
+                  "vue-sfc-scripts.js",
+                  "vue-sfc-styles.d.ts",
+                  "vue-sfc-styles.js",
+                  "vue-sfc-template.d.ts",
+                  "vue-sfc-template.js",
+                  "vue-template-html.d.ts",
+                  "vue-template-html.js",
+                  "vue-template-inline-css.d.ts",
+                  "vue-template-inline-css.js",
+                  "vue-template-inline-ts.d.ts",
+                  "vue-template-inline-ts.js",
+                  "vue-tsx.d.ts",
+                  "vue-tsx.js"
+                ]
+              },
+              "utils": {
+                "files": [
+                  "buildMappings.d.ts",
+                  "buildMappings.js",
+                  "parseCssClassNames.d.ts",
+                  "parseCssClassNames.js",
+                  "parseCssVars.d.ts",
+                  "parseCssVars.js",
+                  "parseSfc.d.ts",
+                  "parseSfc.js",
+                  "shared.d.ts",
+                  "shared.js",
+                  "signals.d.ts",
+                  "signals.js",
+                  "ts.d.ts",
+                  "ts.js",
+                  "vue2TemplateCompiler.d.ts",
+                  "vue2TemplateCompiler.js"
+                ]
+              },
+              "virtualFile": {
+                "files": [
+                  "computedEmbeddedCodes.d.ts",
+                  "computedEmbeddedCodes.js",
+                  "computedSfc.d.ts",
+                  "computedSfc.js",
+                  "computedVueSfc.d.ts",
+                  "computedVueSfc.js",
+                  "embeddedFile.d.ts",
+                  "embeddedFile.js",
+                  "vueFile.d.ts",
+                  "vueFile.js"
+                ]
+              }
+            }
+          },
+          "reactivity": {
+            "files": [
+              "LICENSE",
+              "README.md",
+              "index.js",
+              "package.json"
+            ],
+            "dist": {
+              "files": [
+                "reactivity.cjs.js",
+                "reactivity.cjs.prod.js",
+                "reactivity.d.ts",
+                "reactivity.esm-browser.js",
+                "reactivity.esm-browser.prod.js",
+                "reactivity.esm-bundler.js",
+                "reactivity.global.js",
+                "reactivity.global.prod.js"
+              ]
+            }
+          },
+          "runtime-core": {
+            "files": [
+              "LICENSE",
+              "README.md",
+              "index.js",
+              "package.json"
+            ],
+            "dist": {
+              "files": [
+                "runtime-core.cjs.js",
+                "runtime-core.cjs.prod.js",
+                "runtime-core.d.ts",
+                "runtime-core.esm-bundler.js"
+              ]
+            }
+          },
+          "runtime-dom": {
+            "files": [
+              "LICENSE",
+              "README.md",
+              "index.js",
+              "package.json"
+            ],
+            "dist": {
+              "files": [
+                "runtime-dom.cjs.js",
+                "runtime-dom.cjs.prod.js",
+                "runtime-dom.d.ts",
+                "runtime-dom.esm-browser.js",
+                "runtime-dom.esm-browser.prod.js",
+                "runtime-dom.esm-bundler.js",
+                "runtime-dom.global.js",
+                "runtime-dom.global.prod.js"
+              ]
+            }
+          },
+          "server-renderer": {
+            "files": [
+              "LICENSE",
+              "README.md",
+              "index.js",
+              "package.json"
+            ],
+            "dist": {
+              "files": [
+                "server-renderer.cjs.js",
+                "server-renderer.cjs.prod.js",
+                "server-renderer.d.ts",
+                "server-renderer.esm-browser.js",
+                "server-renderer.esm-browser.prod.js",
+                "server-renderer.esm-bundler.js"
+              ]
+            }
+          },
+          "shared": {
+            "files": [
+              "LICENSE",
+              "README.md",
+              "index.js",
+              "package.json"
+            ],
+            "dist": {
+              "files": [
+                "shared.cjs.js",
+                "shared.cjs.prod.js",
+                "shared.d.ts",
+                "shared.esm-bundler.js"
+              ]
+            }
+          },
+          "tsconfig": {
+            ".github": {
+              "files": [
+                "MAINTENANCE.md"
+              ],
+              "workflows": {
+                "files": [
+                  "publish.yml"
+                ]
+              }
+            },
+            "files": [
+              "LICENSE",
+              "README.md",
+              "package.json",
+              "tsconfig.dom.json",
+              "tsconfig.json",
+              "tsconfig.lib.json"
+            ]
+          }
+        },
+        "alien-signals": {
+          "files": [
+            "LICENSE",
+            "README.md",
+            "package.json"
+          ],
+          "cjs": {
+            "files": [
+              "index.cjs"
+            ]
+          },
+          "esm": {
+            "files": [
+              "index.mjs"
+            ]
+          },
+          "types": {
+            "files": [
+              "index.d.ts",
+              "system.d.ts"
+            ]
+          }
+        },
+        "balanced-match": {
+          ".github": {
+            "files": [
+              "FUNDING.yml"
+            ]
+          },
+          "files": [
+            "LICENSE.md",
+            "README.md",
+            "index.js",
+            "package.json"
+          ]
+        },
+        "brace-expansion": {
+          ".github": {
+            "files": [
+              "FUNDING.yml"
+            ]
+          },
+          "files": [
+            "LICENSE",
+            "README.md",
+            "index.js",
+            "package.json"
+          ]
+        },
+        "csstype": {
+          "files": [
+            "LICENSE",
+            "README.md",
+            "index.d.ts",
+            "index.js.flow",
+            "package.json"
+          ]
+        },
+        "de-indent": {
+          "files": [
+            ".npmignore",
+            "index.js",
+            "package.json",
+            "test.js"
+          ]
+        },
+        "entities": {
+          "files": [
+            "LICENSE",
+            "package.json",
+            "readme.md"
+          ],
+          "lib": {
+            "files": [
+              "decode.d.ts",
+              "decode.d.ts.map",
+              "decode.js",
+              "decode.js.map",
+              "decode_codepoint.d.ts",
+              "decode_codepoint.d.ts.map",
+              "decode_codepoint.js",
+              "decode_codepoint.js.map",
+              "encode.d.ts",
+              "encode.d.ts.map",
+              "encode.js",
+              "encode.js.map",
+              "escape.d.ts",
+              "escape.d.ts.map",
+              "escape.js",
+              "escape.js.map",
+              "index.d.ts",
+              "index.d.ts.map",
+              "index.js",
+              "index.js.map"
+            ],
+            "esm": {
+              "files": [
+                "decode.d.ts",
+                "decode.d.ts.map",
+                "decode.js",
+                "decode.js.map",
+                "decode_codepoint.d.ts",
+                "decode_codepoint.d.ts.map",
+                "decode_codepoint.js",
+                "decode_codepoint.js.map",
+                "encode.d.ts",
+                "encode.d.ts.map",
+                "encode.js",
+                "encode.js.map",
+                "escape.d.ts",
+                "escape.d.ts.map",
+                "escape.js",
+                "escape.js.map",
+                "index.d.ts",
+                "index.d.ts.map",
+                "index.js",
+                "index.js.map",
+                "package.json"
+              ],
+              "generated": {
+                "files": [
+                  "decode-data-html.d.ts",
+                  "decode-data-html.d.ts.map",
+                  "decode-data-html.js",
+                  "decode-data-html.js.map",
+                  "decode-data-xml.d.ts",
+                  "decode-data-xml.d.ts.map",
+                  "decode-data-xml.js",
+                  "decode-data-xml.js.map",
+                  "encode-html.d.ts",
+                  "encode-html.d.ts.map",
+                  "encode-html.js",
+                  "encode-html.js.map"
+                ]
+              }
+            },
+            "generated": {
+              "files": [
+                "decode-data-html.d.ts",
+                "decode-data-html.d.ts.map",
+                "decode-data-html.js",
+                "decode-data-html.js.map",
+                "decode-data-xml.d.ts",
+                "decode-data-xml.d.ts.map",
+                "decode-data-xml.js",
+                "decode-data-xml.js.map",
+                "encode-html.d.ts",
+                "encode-html.d.ts.map",
+                "encode-html.js",
+                "encode-html.js.map"
+              ]
+            }
+          }
+        },
+        "esbuild": {
+          "files": [
+            "LICENSE.md",
+            "README.md",
+            "install.js",
+            "package.json"
+          ],
+          "bin": {
+            "files": [
+              "esbuild"
+            ]
+          },
+          "lib": {
+            "files": [
+              "main.d.ts",
+              "main.js"
+            ]
+          }
+        },
+        "estree-walker": {
+          "files": [
+            "CHANGELOG.md",
+            "LICENSE",
+            "README.md",
+            "package.json"
+          ],
+          "dist": {
+            "esm": {
+              "files": [
+                "estree-walker.js",
+                "package.json"
+              ]
+            },
+            "umd": {
+              "files": [
+                "estree-walker.js"
+              ]
+            }
+          },
+          "src": {
+            "files": [
+              "async.js",
+              "index.js",
+              "package.json",
+              "sync.js",
+              "walker.js"
+            ]
+          },
+          "types": {
+            "files": [
+              "async.d.ts",
+              "index.d.ts",
+              "sync.d.ts",
+              "tsconfig.tsbuildinfo",
+              "walker.d.ts"
+            ]
+          }
+        },
+        "fdir": {
+          "files": [
+            "LICENSE",
+            "README.md",
+            "package.json"
+          ],
+          "dist": {
+            "api": {
+              "files": [
+                "async.d.ts",
+                "async.js",
+                "counter.d.ts",
+                "counter.js",
+                "queue.d.ts",
+                "queue.js",
+                "sync.d.ts",
+                "sync.js",
+                "walker.d.ts",
+                "walker.js"
+              ],
+              "functions": {
+                "files": [
+                  "get-array.d.ts",
+                  "get-array.js",
+                  "group-files.d.ts",
+                  "group-files.js",
+                  "invoke-callback.d.ts",
+                  "invoke-callback.js",
+                  "join-path.d.ts",
+                  "join-path.js",
+                  "push-directory.d.ts",
+                  "push-directory.js",
+                  "push-file.d.ts",
+                  "push-file.js",
+                  "resolve-symlink.d.ts",
+                  "resolve-symlink.js",
+                  "walk-directory.d.ts",
+                  "walk-directory.js"
+                ]
+              }
+            },
+            "builder": {
+              "files": [
+                "api-builder.d.ts",
+                "api-builder.js",
+                "index.d.ts",
+                "index.js"
+              ]
+            },
+            "files": [
+              "index.cjs",
+              "index.d.cts",
+              "index.d.mts",
+              "index.d.ts",
+              "index.js",
+              "index.mjs",
+              "types.d.ts",
+              "types.js",
+              "utils.d.ts",
+              "utils.js"
+            ]
+          }
+        },
+        "he": {
+          "files": [
+            "LICENSE-MIT.txt",
+            "README.md",
+            "he.js",
+            "package.json"
+          ],
+          "bin": {
+            "files": [
+              "he"
+            ]
+          },
+          "man": {
+            "files": [
+              "he.1"
+            ]
+          }
+        },
+        "magic-string": {
+          "files": [
+            "LICENSE",
+            "README.md",
+            "package.json"
+          ],
+          "dist": {
+            "files": [
+              "magic-string.cjs.d.ts",
+              "magic-string.cjs.js",
+              "magic-string.cjs.js.map",
+              "magic-string.es.d.mts",
+              "magic-string.es.mjs",
+              "magic-string.es.mjs.map",
+              "magic-string.umd.js",
+              "magic-string.umd.js.map"
+            ]
+          }
+        },
+        "minimatch": {
+          "files": [
+            "LICENSE",
+            "README.md",
+            "package.json"
+          ],
+          "dist": {
+            "commonjs": {
+              "files": [
+                "assert-valid-pattern.d.ts",
+                "assert-valid-pattern.d.ts.map",
+                "assert-valid-pattern.js",
+                "assert-valid-pattern.js.map",
+                "ast.d.ts",
+                "ast.d.ts.map",
+                "ast.js",
+                "ast.js.map",
+                "brace-expressions.d.ts",
+                "brace-expressions.d.ts.map",
+                "brace-expressions.js",
+                "brace-expressions.js.map",
+                "escape.d.ts",
+                "escape.d.ts.map",
+                "escape.js",
+                "escape.js.map",
+                "index.d.ts",
+                "index.d.ts.map",
+                "index.js",
+                "index.js.map",
+                "package.json",
+                "unescape.d.ts",
+                "unescape.d.ts.map",
+                "unescape.js",
+                "unescape.js.map"
+              ]
+            },
+            "esm": {
+              "files": [
+                "assert-valid-pattern.d.ts",
+                "assert-valid-pattern.d.ts.map",
+                "assert-valid-pattern.js",
+                "assert-valid-pattern.js.map",
+                "ast.d.ts",
+                "ast.d.ts.map",
+                "ast.js",
+                "ast.js.map",
+                "brace-expressions.d.ts",
+                "brace-expressions.d.ts.map",
+                "brace-expressions.js",
+                "brace-expressions.js.map",
+                "escape.d.ts",
+                "escape.d.ts.map",
+                "escape.js",
+                "escape.js.map",
+                "index.d.ts",
+                "index.d.ts.map",
+                "index.js",
+                "index.js.map",
+                "package.json",
+                "unescape.d.ts",
+                "unescape.d.ts.map",
+                "unescape.js",
+                "unescape.js.map"
+              ]
+            }
+          }
+        },
+        "muggle-string": {
+          "files": [
+            "LICENSE",
+            "README.md",
+            "package.json"
+          ],
+          "out": {
+            "files": [
+              "base.d.ts",
+              "base.js",
+              "basic.d.ts",
+              "basic.js",
+              "binarySearch.d.ts",
+              "binarySearch.js",
+              "common.d.ts",
+              "common.js",
+              "getLength.d.ts",
+              "getLength.js",
+              "index.d.ts",
+              "index.js",
+              "map.d.ts",
+              "map.js",
+              "overwriteSource.d.ts",
+              "overwriteSource.js",
+              "replace.d.ts",
+              "replace.js",
+              "segment.d.ts",
+              "segment.js",
+              "sourceBased.d.ts",
+              "sourceBased.js",
+              "toString.d.ts",
+              "toString.js",
+              "track.d.ts",
+              "track.js",
+              "types.d.ts",
+              "types.js"
+            ]
+          }
+        },
+        "nanoid": {
+          "files": [
+            "LICENSE",
+            "README.md",
+            "index.browser.cjs",
+            "index.browser.js",
+            "index.cjs",
+            "index.d.cts",
+            "index.d.ts",
+            "index.js",
+            "nanoid.js",
+            "package.json"
+          ],
+          "async": {
+            "files": [
+              "index.browser.cjs",
+              "index.browser.js",
+              "index.cjs",
+              "index.d.ts",
+              "index.js",
+              "index.native.js",
+              "package.json"
+            ]
+          },
+          "bin": {
+            "files": [
+              "nanoid.cjs"
+            ]
+          },
+          "non-secure": {
+            "files": [
+              "index.cjs",
+              "index.d.ts",
+              "index.js",
+              "package.json"
+            ]
+          },
+          "url-alphabet": {
+            "files": [
+              "index.cjs",
+              "index.js",
+              "package.json"
+            ]
+          }
+        },
+        "path-browserify": {
+          ".github": {
+            "files": [
+              "FUNDING.yml"
+            ]
+          },
+          "files": [
+            ".travis.yml",
+            "CHANGELOG.md",
+            "LICENSE",
+            "README.md",
+            "index.js",
+            "package.json",
+            "security.md"
+          ],
+          "test": {
+            "files": [
+              "index.js",
+              "test-path-basename.js",
+              "test-path-dirname.js",
+              "test-path-extname.js",
+              "test-path-isabsolute.js",
+              "test-path-join.js",
+              "test-path-parse-format.js",
+              "test-path-relative.js",
+              "test-path-resolve.js",
+              "test-path-zero-length-strings.js",
+              "test-path.js"
+            ]
+          }
+        },
+        "picocolors": {
+          "files": [
+            "LICENSE",
+            "README.md",
+            "package.json",
+            "picocolors.browser.js",
+            "picocolors.d.ts",
+            "picocolors.js",
+            "types.d.ts"
+          ]
+        },
+        "picomatch": {
+          "files": [
+            "LICENSE",
+            "README.md",
+            "index.js",
+            "package.json",
+            "posix.js"
+          ],
+          "lib": {
+            "files": [
+              "constants.js",
+              "parse.js",
+              "picomatch.js",
+              "scan.js",
+              "utils.js"
+            ]
+          }
+        },
+        "postcss": {
+          "files": [
+            "LICENSE",
+            "README.md",
+            "package.json"
+          ],
+          "lib": {
+            "files": [
+              "at-rule.d.ts",
+              "at-rule.js",
+              "comment.d.ts",
+              "comment.js",
+              "container.d.ts",
+              "container.js",
+              "css-syntax-error.d.ts",
+              "css-syntax-error.js",
+              "declaration.d.ts",
+              "declaration.js",
+              "document.d.ts",
+              "document.js",
+              "fromJSON.d.ts",
+              "fromJSON.js",
+              "input.d.ts",
+              "input.js",
+              "lazy-result.d.ts",
+              "lazy-result.js",
+              "list.d.ts",
+              "list.js",
+              "map-generator.js",
+              "no-work-result.d.ts",
+              "no-work-result.js",
+              "node.d.ts",
+              "node.js",
+              "parse.d.ts",
+              "parse.js",
+              "parser.js",
+              "postcss.d.mts",
+              "postcss.d.ts",
+              "postcss.js",
+              "postcss.mjs",
+              "previous-map.d.ts",
+              "previous-map.js",
+              "processor.d.ts",
+              "processor.js",
+              "result.d.ts",
+              "result.js",
+              "root.d.ts",
+              "root.js",
+              "rule.d.ts",
+              "rule.js",
+              "stringifier.d.ts",
+              "stringifier.js",
+              "stringify.d.ts",
+              "stringify.js",
+              "symbols.js",
+              "terminal-highlight.js",
+              "tokenize.js",
+              "warn-once.js",
+              "warning.d.ts",
+              "warning.js"
+            ]
+          }
+        },
+        "rollup": {
+          "files": [
+            "LICENSE.md",
+            "README.md",
+            "package.json"
+          ],
+          "dist": {
+            "bin": {
+              "files": [
+                "rollup"
+              ]
+            },
+            "es": {
+              "files": [
+                "getLogFilter.js",
+                "package.json",
+                "parseAst.js",
+                "rollup.js"
+              ],
+              "shared": {
+                "files": [
+                  "node-entry.js",
+                  "parseAst.js",
+                  "watch.js"
+                ]
+              }
+            },
+            "files": [
+              "getLogFilter.d.ts",
+              "getLogFilter.js",
+              "loadConfigFile.d.ts",
+              "loadConfigFile.js",
+              "native.js",
+              "parseAst.d.ts",
+              "parseAst.js",
+              "rollup.d.ts",
+              "rollup.js"
+            ],
+            "shared": {
+              "files": [
+                "fsevents-importer.js",
+                "index.js",
+                "loadConfigFile.js",
+                "parseAst.js",
+                "rollup.js",
+                "watch-cli.js",
+                "watch.js"
+              ]
+            }
+          }
+        },
+        "source-map-js": {
+          "files": [
+            "LICENSE",
+            "README.md",
+            "package.json",
+            "source-map.d.ts",
+            "source-map.js"
+          ],
+          "lib": {
+            "files": [
+              "array-set.js",
+              "base64-vlq.js",
+              "base64.js",
+              "binary-search.js",
+              "mapping-list.js",
+              "quick-sort.js",
+              "source-map-consumer.d.ts",
+              "source-map-consumer.js",
+              "source-map-generator.d.ts",
+              "source-map-generator.js",
+              "source-node.d.ts",
+              "source-node.js",
+              "util.js"
+            ]
+          }
+        },
+        "tinyglobby": {
+          "files": [
+            "LICENSE",
+            "README.md",
+            "package.json"
+          ],
+          "dist": {
+            "files": [
+              "index.d.mts",
+              "index.d.ts",
+              "index.js",
+              "index.mjs"
+            ]
+          }
+        },
+        "typescript": {
+          "files": [
+            "LICENSE.txt",
+            "README.md",
+            "SECURITY.md",
+            "ThirdPartyNoticeText.txt",
+            "package.json"
+          ],
+          "bin": {
+            "files": [
+              "tsc",
+              "tsserver"
+            ]
+          },
+          "lib": {
+            "files": [
+              "_tsc.js",
+              "_tsserver.js",
+              "_typingsInstaller.js",
+              "lib.d.ts",
+              "lib.decorators.d.ts",
+              "lib.decorators.legacy.d.ts",
+              "lib.dom.asynciterable.d.ts",
+              "lib.dom.d.ts",
+              "lib.dom.iterable.d.ts",
+              "lib.es2015.collection.d.ts",
+              "lib.es2015.core.d.ts",
+              "lib.es2015.d.ts",
+              "lib.es2015.generator.d.ts",
+              "lib.es2015.iterable.d.ts",
+              "lib.es2015.promise.d.ts",
+              "lib.es2015.proxy.d.ts",
+              "lib.es2015.reflect.d.ts",
+              "lib.es2015.symbol.d.ts",
+              "lib.es2015.symbol.wellknown.d.ts",
+              "lib.es2016.array.include.d.ts",
+              "lib.es2016.d.ts",
+              "lib.es2016.full.d.ts",
+              "lib.es2016.intl.d.ts",
+              "lib.es2017.arraybuffer.d.ts",
+              "lib.es2017.d.ts",
+              "lib.es2017.date.d.ts",
+              "lib.es2017.full.d.ts",
+              "lib.es2017.intl.d.ts",
+              "lib.es2017.object.d.ts",
+              "lib.es2017.sharedmemory.d.ts",
+              "lib.es2017.string.d.ts",
+              "lib.es2017.typedarrays.d.ts",
+              "lib.es2018.asyncgenerator.d.ts",
+              "lib.es2018.asynciterable.d.ts",
+              "lib.es2018.d.ts",
+              "lib.es2018.full.d.ts",
+              "lib.es2018.intl.d.ts",
+              "lib.es2018.promise.d.ts",
+              "lib.es2018.regexp.d.ts",
+              "lib.es2019.array.d.ts",
+              "lib.es2019.d.ts",
+              "lib.es2019.full.d.ts",
+              "lib.es2019.intl.d.ts",
+              "lib.es2019.object.d.ts",
+              "lib.es2019.string.d.ts",
+              "lib.es2019.symbol.d.ts",
+              "lib.es2020.bigint.d.ts",
+              "lib.es2020.d.ts",
+              "lib.es2020.date.d.ts",
+              "lib.es2020.full.d.ts",
+              "lib.es2020.intl.d.ts",
+              "lib.es2020.number.d.ts",
+              "lib.es2020.promise.d.ts",
+              "lib.es2020.sharedmemory.d.ts",
+              "lib.es2020.string.d.ts",
+              "lib.es2020.symbol.wellknown.d.ts",
+              "lib.es2021.d.ts",
+              "lib.es2021.full.d.ts",
+              "lib.es2021.intl.d.ts",
+              "lib.es2021.promise.d.ts",
+              "lib.es2021.string.d.ts",
+              "lib.es2021.weakref.d.ts",
+              "lib.es2022.array.d.ts",
+              "lib.es2022.d.ts",
+              "lib.es2022.error.d.ts",
+              "lib.es2022.full.d.ts",
+              "lib.es2022.intl.d.ts",
+              "lib.es2022.object.d.ts",
+              "lib.es2022.regexp.d.ts",
+              "lib.es2022.string.d.ts",
+              "lib.es2023.array.d.ts",
+              "lib.es2023.collection.d.ts",
+              "lib.es2023.d.ts",
+              "lib.es2023.full.d.ts",
+              "lib.es2023.intl.d.ts",
+              "lib.es2024.arraybuffer.d.ts",
+              "lib.es2024.collection.d.ts",
+              "lib.es2024.d.ts",
+              "lib.es2024.full.d.ts",
+              "lib.es2024.object.d.ts",
+              "lib.es2024.promise.d.ts",
+              "lib.es2024.regexp.d.ts",
+              "lib.es2024.sharedmemory.d.ts",
+              "lib.es2024.string.d.ts",
+              "lib.es5.d.ts",
+              "lib.es6.d.ts",
+              "lib.esnext.array.d.ts",
+              "lib.esnext.collection.d.ts",
+              "lib.esnext.d.ts",
+              "lib.esnext.decorators.d.ts",
+              "lib.esnext.disposable.d.ts",
+              "lib.esnext.float16.d.ts",
+              "lib.esnext.full.d.ts",
+              "lib.esnext.intl.d.ts",
+              "lib.esnext.iterator.d.ts",
+              "lib.esnext.promise.d.ts",
+              "lib.scripthost.d.ts",
+              "lib.webworker.asynciterable.d.ts",
+              "lib.webworker.d.ts",
+              "lib.webworker.importscripts.d.ts",
+              "lib.webworker.iterable.d.ts",
+              "tsc.js",
+              "tsserver.js",
+              "tsserverlibrary.d.ts",
+              "tsserverlibrary.js",
+              "typesMap.json",
+              "typescript.d.ts",
+              "typescript.js",
+              "typingsInstaller.js",
+              "watchGuard.js"
+            ],
+            "cs": {
+              "files": [
+                "diagnosticMessages.generated.json"
+              ]
+            },
+            "de": {
+              "files": [
+                "diagnosticMessages.generated.json"
+              ]
+            },
+            "es": {
+              "files": [
+                "diagnosticMessages.generated.json"
+              ]
+            },
+            "fr": {
+              "files": [
+                "diagnosticMessages.generated.json"
+              ]
+            },
+            "it": {
+              "files": [
+                "diagnosticMessages.generated.json"
+              ]
+            },
+            "ja": {
+              "files": [
+                "diagnosticMessages.generated.json"
+              ]
+            },
+            "ko": {
+              "files": [
+                "diagnosticMessages.generated.json"
+              ]
+            },
+            "pl": {
+              "files": [
+                "diagnosticMessages.generated.json"
+              ]
+            },
+            "pt-br": {
+              "files": [
+                "diagnosticMessages.generated.json"
+              ]
+            },
+            "ru": {
+              "files": [
+                "diagnosticMessages.generated.json"
+              ]
+            },
+            "tr": {
+              "files": [
+                "diagnosticMessages.generated.json"
+              ]
+            },
+            "zh-cn": {
+              "files": [
+                "diagnosticMessages.generated.json"
+              ]
+            },
+            "zh-tw": {
+              "files": [
+                "diagnosticMessages.generated.json"
+              ]
+            }
+          }
+        },
+        "vite": {
+          "files": [
+            "LICENSE.md",
+            "README.md",
+            "client.d.ts",
+            "index.cjs",
+            "index.d.cts",
+            "package.json"
+          ],
+          "bin": {
+            "files": [
+              "openChrome.applescript",
+              "vite.js"
+            ]
+          },
+          "dist": {
+            "client": {
+              "files": [
+                "client.mjs",
+                "env.mjs"
+              ]
+            },
+            "node": {
+              "chunks": {
+                "files": [
+                  "dep-3RmXg9uo.js",
+                  "dep-AiMcmC_f.js",
+                  "dep-CvfTChi5.js",
+                  "dep-DBxKXgDP.js",
+                  "dep-SgSik2vo.js"
+                ]
+              },
+              "files": [
+                "cli.js",
+                "constants.js",
+                "index.d.ts",
+                "index.js",
+                "module-runner.d.ts",
+                "module-runner.js",
+                "moduleRunnerTransport.d-DJ_mE5sf.d.ts"
+              ]
+            },
+            "node-cjs": {
+              "files": [
+                "publicUtils.cjs"
+              ]
+            }
+          },
+          "misc": {
+            "files": [
+              "false.js",
+              "true.js"
+            ]
+          },
+          "types": {
+            "files": [
+              "customEvent.d.ts",
+              "hmrPayload.d.ts",
+              "hot.d.ts",
+              "import-meta.d.ts",
+              "importGlob.d.ts",
+              "importMeta.d.ts",
+              "metadata.d.ts",
+              "package.json"
+            ],
+            "internal": {
+              "files": [
+                "cssPreprocessorOptions.d.ts",
+                "lightningcssOptions.d.ts"
+              ]
+            }
+          }
+        },
+        "vscode-uri": {
+          "files": [
+            "LICENSE.md",
+            "README.md",
+            "SECURITY.md",
+            "package.json"
+          ],
+          "lib": {
+            "esm": {
+              "files": [
+                "index.mjs",
+                "index.mjs.map"
+              ]
+            },
+            "umd": {
+              "files": [
+                "charCode.d.ts",
+                "charCode.js",
+                "index.d.ts",
+                "index.js",
+                "index.js.map",
+                "platform.d.ts",
+                "platform.js",
+                "uri.d.ts",
+                "uri.js",
+                "utils.d.ts",
+                "utils.js"
+              ]
+            }
+          }
+        },
+        "vue": {
+          "files": [
+            "LICENSE",
+            "README.md",
+            "index.js",
+            "index.mjs",
+            "jsx.d.ts",
+            "package.json"
+          ],
+          "compiler-sfc": {
+            "files": [
+              "index.browser.js",
+              "index.browser.mjs",
+              "index.d.mts",
+              "index.d.ts",
+              "index.js",
+              "index.mjs",
+              "package.json",
+              "register-ts.js"
+            ]
+          },
+          "dist": {
+            "files": [
+              "vue.cjs.js",
+              "vue.cjs.prod.js",
+              "vue.d.mts",
+              "vue.d.ts",
+              "vue.esm-browser.js",
+              "vue.esm-browser.prod.js",
+              "vue.esm-bundler.js",
+              "vue.global.js",
+              "vue.global.prod.js",
+              "vue.runtime.esm-browser.js",
+              "vue.runtime.esm-browser.prod.js",
+              "vue.runtime.esm-bundler.js",
+              "vue.runtime.global.js",
+              "vue.runtime.global.prod.js"
+            ]
+          },
+          "jsx-runtime": {
+            "files": [
+              "index.d.ts",
+              "index.js",
+              "index.mjs",
+              "package.json"
+            ]
+          },
+          "server-renderer": {
+            "files": [
+              "index.d.mts",
+              "index.d.ts",
+              "index.js",
+              "index.mjs",
+              "package.json"
+            ]
+          }
+        },
+        "vue-tsc": {
+          "files": [
+            "LICENSE",
+            "README.md",
+            "index.d.ts",
+            "index.js",
+            "package.json"
+          ],
+          "bin": {
+            "files": [
+              "vue-tsc.js"
+            ]
+          }
+        }
+      },
+      "public": {
+        "files": [
+          "vite.svg"
+        ]
+      },
+      "src": {
+        "files": [
+          "App.vue",
+          "main.ts",
+          "style.css",
+          "vite-env.d.ts"
+        ],
+        "assets": {
+          "files": [
+            "vue.svg"
+          ]
+        },
+        "components": {
+          "files": [
+            "HelloWorld.vue"
+          ]
+        }
+      }
+    },
+    "server": {
+      "files": [
+        ".env",
+        "index.js",
+        "package-lock.json",
+        "package.json"
+      ],
+      "config": {
+        "files": [
+          "db.js"
+        ]
+      },
+      "controllers": {
+        "files": [
+          "userController.js"
+        ]
+      },
+      "models": {
+        "files": [
+          "User.js"
+        ]
+      },
+      "node_modules": {
+        ".bin": {
+          "files": [
+            "bcrypt",
+            "nodemon",
+            "nodetouch",
+            "semver"
+          ]
+        },
+        "files": [
+          ".package-lock.json"
+        ],
+        "@mongodb-js": {
+          "saslprep": {
+            "files": [
+              "LICENSE",
+              "package.json",
+              "readme.md"
+            ],
+            "dist": {
+              "files": [
+                ".esm-wrapper.mjs",
+                "browser.d.ts",
+                "browser.d.ts.map",
+                "browser.js",
+                "browser.js.map",
+                "code-points-data-browser.d.ts",
+                "code-points-data-browser.d.ts.map",
+                "code-points-data-browser.js",
+                "code-points-data-browser.js.map",
+                "code-points-data.d.ts",
+                "code-points-data.d.ts.map",
+                "code-points-data.js",
+                "code-points-data.js.map",
+                "code-points-src.d.ts",
+                "code-points-src.d.ts.map",
+                "code-points-src.js",
+                "code-points-src.js.map",
+                "generate-code-points.d.ts",
+                "generate-code-points.d.ts.map",
+                "generate-code-points.js",
+                "generate-code-points.js.map",
+                "index.d.ts",
+                "index.d.ts.map",
+                "index.js",
+                "index.js.map",
+                "memory-code-points.d.ts",
+                "memory-code-points.d.ts.map",
+                "memory-code-points.js",
+                "memory-code-points.js.map",
+                "node.d.ts",
+                "node.d.ts.map",
+                "node.js",
+                "node.js.map",
+                "util.d.ts",
+                "util.d.ts.map",
+                "util.js",
+                "util.js.map"
+              ]
+            }
+          }
+        },
+        "@types": {
+          "webidl-conversions": {
+            "files": [
+              "LICENSE",
+              "README.md",
+              "index.d.ts",
+              "package.json"
+            ]
+          },
+          "whatwg-url": {
+            "files": [
+              "LICENSE",
+              "README.md",
+              "index.d.ts",
+              "package.json",
+              "webidl2js-wrapper.d.ts"
+            ],
+            "lib": {
+              "files": [
+                "URL-impl.d.ts",
+                "URL.d.ts",
+                "URLSearchParams-impl.d.ts",
+                "URLSearchParams.d.ts"
+              ]
+            }
+          }
+        },
+        "accepts": {
+          "files": [
+            "HISTORY.md",
+            "LICENSE",
+            "README.md",
+            "index.js",
+            "package.json"
+          ]
+        },
+        "anymatch": {
+          "files": [
+            "LICENSE",
+            "README.md",
+            "index.d.ts",
+            "index.js",
+            "package.json"
+          ]
+        },
+        "balanced-match": {
+          ".github": {
+            "files": [
+              "FUNDING.yml"
+            ]
+          },
+          "files": [
+            "LICENSE.md",
+            "README.md",
+            "index.js",
+            "package.json"
+          ]
+        },
+        "bcryptjs": {
+          "files": [
+            "LICENSE",
+            "README.md",
+            "index.d.ts",
+            "index.js",
+            "package.json",
+            "types.d.ts"
+          ],
+          "bin": {
+            "files": [
+              "bcrypt"
+            ]
+          },
+          "umd": {
+            "files": [
+              "index.d.ts",
+              "index.js",
+              "package.json",
+              "types.d.ts"
+            ]
+          }
+        },
+        "binary-extensions": {
+          "files": [
+            "binary-extensions.json",
+            "binary-extensions.json.d.ts",
+            "index.d.ts",
+            "index.js",
+            "license",
+            "package.json",
+            "readme.md"
+          ]
+        },
+        "body-parser": {
+          "files": [
+            "HISTORY.md",
+            "LICENSE",
+            "README.md",
+            "index.js",
+            "package.json"
+          ],
+          "lib": {
+            "files": [
+              "read.js",
+              "utils.js"
+            ],
+            "types": {
+              "files": [
+                "json.js",
+                "raw.js",
+                "text.js",
+                "urlencoded.js"
+              ]
+            }
+          }
+        },
+        "brace-expansion": {
+          "files": [
+            "LICENSE",
+            "README.md",
+            "index.js",
+            "package.json"
+          ]
+        },
+        "braces": {
+          "files": [
+            "LICENSE",
+            "README.md",
+            "index.js",
+            "package.json"
+          ],
+          "lib": {
+            "files": [
+              "compile.js",
+              "constants.js",
+              "expand.js",
+              "parse.js",
+              "stringify.js",
+              "utils.js"
+            ]
+          }
+        },
+        "bson": {
+          "files": [
+            "LICENSE.md",
+            "README.md",
+            "bson.d.ts",
+            "package.json"
+          ],
+          "etc": {
+            "files": [
+              "prepare.js"
+            ]
+          },
+          "lib": {
+            "files": [
+              "bson.bundle.js",
+              "bson.bundle.js.map",
+              "bson.cjs",
+              "bson.cjs.map",
+              "bson.mjs",
+              "bson.mjs.map",
+              "bson.node.mjs",
+              "bson.node.mjs.map",
+              "bson.rn.cjs",
+              "bson.rn.cjs.map"
+            ]
+          },
+          "src": {
+            "files": [
+              "binary.ts",
+              "bson.ts",
+              "bson_value.ts",
+              "code.ts",
+              "constants.ts",
+              "db_ref.ts",
+              "decimal128.ts",
+              "double.ts",
+              "error.ts",
+              "extended_json.ts",
+              "index.ts",
+              "int_32.ts",
+              "long.ts",
+              "max_key.ts",
+              "min_key.ts",
+              "objectid.ts",
+              "parse_utf8.ts",
+              "regexp.ts",
+              "symbol.ts",
+              "timestamp.ts"
+            ],
+            "parser": {
+              "files": [
+                "calculate_size.ts",
+                "deserializer.ts",
+                "serializer.ts",
+                "utils.ts"
+              ],
+              "on_demand": {
+                "files": [
+                  "index.ts",
+                  "parse_to_elements.ts"
+                ]
+              }
+            },
+            "utils": {
+              "files": [
+                "byte_utils.ts",
+                "latin.ts",
+                "node_byte_utils.ts",
+                "number_utils.ts",
+                "string_utils.ts",
+                "web_byte_utils.ts"
+              ]
+            }
+          },
+          "vendor": {
+            "base64": {
+              "files": [
+                "LICENSE-MIT.txt",
+                "README.md",
+                "base64.js",
+                "package.json"
+              ]
+            },
+            "text-encoding": {
+              "files": [
+                "LICENSE.md",
+                "README.md",
+                "index.js",
+                "package.json"
+              ],
+              "lib": {
+                "files": [
+                  "encoding-indexes.js",
+                  "encoding.js"
+                ]
+              }
+            }
+          }
+        },
+        "bytes": {
+          "files": [
+            "History.md",
+            "LICENSE",
+            "Readme.md",
+            "index.js",
+            "package.json"
+          ]
+        },
+        "call-bind-apply-helpers": {
+          "files": [
+            ".eslintrc",
+            ".nycrc",
+            "CHANGELOG.md",
+            "LICENSE",
+            "README.md",
+            "actualApply.d.ts",
+            "actualApply.js",
+            "applyBind.d.ts",
+            "applyBind.js",
+            "functionApply.d.ts",
+            "functionApply.js",
+            "functionCall.d.ts",
+            "functionCall.js",
+            "index.d.ts",
+            "index.js",
+            "package.json",
+            "reflectApply.d.ts",
+            "reflectApply.js",
+            "tsconfig.json"
+          ],
+          ".github": {
+            "files": [
+              "FUNDING.yml"
+            ]
+          },
+          "test": {
+            "files": [
+              "index.js"
+            ]
+          }
+        },
+        "call-bound": {
+          "files": [
+            ".eslintrc",
+            ".nycrc",
+            "CHANGELOG.md",
+            "LICENSE",
+            "README.md",
+            "index.d.ts",
+            "index.js",
+            "package.json",
+            "tsconfig.json"
+          ],
+          ".github": {
+            "files": [
+              "FUNDING.yml"
+            ]
+          },
+          "test": {
+            "files": [
+              "index.js"
+            ]
+          }
+        },
+        "chokidar": {
+          "files": [
+            "LICENSE",
+            "README.md",
+            "index.js",
+            "package.json"
+          ],
+          "lib": {
+            "files": [
+              "constants.js",
+              "fsevents-handler.js",
+              "nodefs-handler.js"
+            ]
+          },
+          "types": {
+            "files": [
+              "index.d.ts"
+            ]
+          }
+        },
+        "concat-map": {
+          "files": [
+            ".travis.yml",
+            "LICENSE",
+            "README.markdown",
+            "index.js",
+            "package.json"
+          ],
+          "example": {
+            "files": [
+              "map.js"
+            ]
+          },
+          "test": {
+            "files": [
+              "map.js"
+            ]
+          }
+        },
+        "content-disposition": {
+          "files": [
+            "HISTORY.md",
+            "LICENSE",
+            "README.md",
+            "index.js",
+            "package.json"
+          ]
+        },
+        "content-type": {
+          "files": [
+            "HISTORY.md",
+            "LICENSE",
+            "README.md",
+            "index.js",
+            "package.json"
+          ]
+        },
+        "cookie": {
+          "files": [
+            "LICENSE",
+            "README.md",
+            "SECURITY.md",
+            "index.js",
+            "package.json"
+          ]
+        },
+        "cookie-signature": {
+          "files": [
+            "History.md",
+            "LICENSE",
+            "Readme.md",
+            "index.js",
+            "package.json"
+          ]
+        },
+        "cors": {
+          "files": [
+            "CONTRIBUTING.md",
+            "HISTORY.md",
+            "LICENSE",
+            "README.md",
+            "package.json"
+          ],
+          "lib": {
+            "files": [
+              "index.js"
+            ]
+          }
+        },
+        "debug": {
+          "files": [
+            "LICENSE",
+            "README.md",
+            "package.json"
+          ],
+          "src": {
+            "files": [
+              "browser.js",
+              "common.js",
+              "index.js",
+              "node.js"
+            ]
+          }
+        },
+        "depd": {
+          "files": [
+            "History.md",
+            "LICENSE",
+            "Readme.md",
+            "index.js",
+            "package.json"
+          ],
+          "lib": {
+            "browser": {
+              "files": [
+                "index.js"
+              ]
+            }
+          }
+        },
+        "dotenv": {
+          "files": [
+            "CHANGELOG.md",
+            "LICENSE",
+            "README-es.md",
+            "README.md",
+            "config.d.ts",
+            "config.js",
+            "package.json"
+          ],
+          "lib": {
+            "files": [
+              "cli-options.js",
+              "env-options.js",
+              "main.d.ts",
+              "main.js"
+            ]
+          }
+        },
+        "dunder-proto": {
+          "files": [
+            ".eslintrc",
+            ".nycrc",
+            "CHANGELOG.md",
+            "LICENSE",
+            "README.md",
+            "get.d.ts",
+            "get.js",
+            "package.json",
+            "set.d.ts",
+            "set.js",
+            "tsconfig.json"
+          ],
+          ".github": {
+            "files": [
+              "FUNDING.yml"
+            ]
+          },
+          "test": {
+            "files": [
+              "get.js",
+              "index.js",
+              "set.js"
+            ]
+          }
+        },
+        "ee-first": {
+          "files": [
+            "LICENSE",
+            "README.md",
+            "index.js",
+            "package.json"
+          ]
+        },
+        "encodeurl": {
+          "files": [
+            "LICENSE",
+            "README.md",
+            "index.js",
+            "package.json"
+          ]
+        },
+        "es-define-property": {
+          "files": [
+            ".eslintrc",
+            ".nycrc",
+            "CHANGELOG.md",
+            "LICENSE",
+            "README.md",
+            "index.d.ts",
+            "index.js",
+            "package.json",
+            "tsconfig.json"
+          ],
+          ".github": {
+            "files": [
+              "FUNDING.yml"
+            ]
+          },
+          "test": {
+            "files": [
+              "index.js"
+            ]
+          }
+        },
+        "es-errors": {
+          "files": [
+            ".eslintrc",
+            "CHANGELOG.md",
+            "LICENSE",
+            "README.md",
+            "eval.d.ts",
+            "eval.js",
+            "index.d.ts",
+            "index.js",
+            "package.json",
+            "range.d.ts",
+            "range.js",
+            "ref.d.ts",
+            "ref.js",
+            "syntax.d.ts",
+            "syntax.js",
+            "tsconfig.json",
+            "type.d.ts",
+            "type.js",
+            "uri.d.ts",
+            "uri.js"
+          ],
+          ".github": {
+            "files": [
+              "FUNDING.yml"
+            ]
+          },
+          "test": {
+            "files": [
+              "index.js"
+            ]
+          }
+        },
+        "es-object-atoms": {
+          "files": [
+            ".eslintrc",
+            "CHANGELOG.md",
+            "LICENSE",
+            "README.md",
+            "RequireObjectCoercible.d.ts",
+            "RequireObjectCoercible.js",
+            "ToObject.d.ts",
+            "ToObject.js",
+            "index.d.ts",
+            "index.js",
+            "isObject.d.ts",
+            "isObject.js",
+            "package.json",
+            "tsconfig.json"
+          ],
+          ".github": {
+            "files": [
+              "FUNDING.yml"
+            ]
+          },
+          "test": {
+            "files": [
+              "index.js"
+            ]
+          }
+        },
+        "escape-html": {
+          "files": [
+            "LICENSE",
+            "Readme.md",
+            "index.js",
+            "package.json"
+          ]
+        },
+        "etag": {
+          "files": [
+            "HISTORY.md",
+            "LICENSE",
+            "README.md",
+            "index.js",
+            "package.json"
+          ]
+        },
+        "express": {
+          "files": [
+            "History.md",
+            "LICENSE",
+            "Readme.md",
+            "index.js",
+            "package.json"
+          ],
+          "lib": {
+            "files": [
+              "application.js",
+              "express.js",
+              "request.js",
+              "response.js",
+              "utils.js",
+              "view.js"
+            ]
+          }
+        },
+        "fill-range": {
+          "files": [
+            "LICENSE",
+            "README.md",
+            "index.js",
+            "package.json"
+          ]
+        },
+        "finalhandler": {
+          "files": [
+            "HISTORY.md",
+            "LICENSE",
+            "README.md",
+            "index.js",
+            "package.json"
+          ]
+        },
+        "forwarded": {
+          "files": [
+            "HISTORY.md",
+            "LICENSE",
+            "README.md",
+            "index.js",
+            "package.json"
+          ]
+        },
+        "fresh": {
+          "files": [
+            "HISTORY.md",
+            "LICENSE",
+            "README.md",
+            "index.js",
+            "package.json"
+          ]
+        },
+        "fsevents": {
+          "files": [
+            "LICENSE",
+            "README.md",
+            "fsevents.d.ts",
+            "fsevents.js",
+            "fsevents.node",
+            "package.json"
+          ]
+        },
+        "function-bind": {
+          "files": [
+            ".eslintrc",
+            ".nycrc",
+            "CHANGELOG.md",
+            "LICENSE",
+            "README.md",
+            "implementation.js",
+            "index.js",
+            "package.json"
+          ],
+          ".github": {
+            "files": [
+              "FUNDING.yml",
+              "SECURITY.md"
+            ]
+          },
+          "test": {
+            "files": [
+              ".eslintrc",
+              "index.js"
+            ]
+          }
+        },
+        "get-intrinsic": {
+          "files": [
+            ".eslintrc",
+            ".nycrc",
+            "CHANGELOG.md",
+            "LICENSE",
+            "README.md",
+            "index.js",
+            "package.json"
+          ],
+          ".github": {
+            "files": [
+              "FUNDING.yml"
+            ]
+          },
+          "test": {
+            "files": [
+              "GetIntrinsic.js"
+            ]
+          }
+        },
+        "get-proto": {
+          "files": [
+            ".eslintrc",
+            ".nycrc",
+            "CHANGELOG.md",
+            "LICENSE",
+            "Object.getPrototypeOf.d.ts",
+            "Object.getPrototypeOf.js",
+            "README.md",
+            "Reflect.getPrototypeOf.d.ts",
+            "Reflect.getPrototypeOf.js",
+            "index.d.ts",
+            "index.js",
+            "package.json",
+            "tsconfig.json"
+          ],
+          ".github": {
+            "files": [
+              "FUNDING.yml"
+            ]
+          },
+          "test": {
+            "files": [
+              "index.js"
+            ]
+          }
+        },
+        "glob-parent": {
+          "files": [
+            "CHANGELOG.md",
+            "LICENSE",
+            "README.md",
+            "index.js",
+            "package.json"
+          ]
+        },
+        "gopd": {
+          "files": [
+            ".eslintrc",
+            "CHANGELOG.md",
+            "LICENSE",
+            "README.md",
+            "gOPD.d.ts",
+            "gOPD.js",
+            "index.d.ts",
+            "index.js",
+            "package.json",
+            "tsconfig.json"
+          ],
+          ".github": {
+            "files": [
+              "FUNDING.yml"
+            ]
+          },
+          "test": {
+            "files": [
+              "index.js"
+            ]
+          }
+        },
+        "has-flag": {
+          "files": [
+            "index.js",
+            "license",
+            "package.json",
+            "readme.md"
+          ]
+        },
+        "has-symbols": {
+          "files": [
+            ".eslintrc",
+            ".nycrc",
+            "CHANGELOG.md",
+            "LICENSE",
+            "README.md",
+            "index.d.ts",
+            "index.js",
+            "package.json",
+            "shams.d.ts",
+            "shams.js",
+            "tsconfig.json"
+          ],
+          ".github": {
+            "files": [
+              "FUNDING.yml"
+            ]
+          },
+          "test": {
+            "files": [
+              "index.js",
+              "tests.js"
+            ],
+            "shams": {
+              "files": [
+                "core-js.js",
+                "get-own-property-symbols.js"
+              ]
+            }
+          }
+        },
+        "hasown": {
+          "files": [
+            ".eslintrc",
+            ".nycrc",
+            "CHANGELOG.md",
+            "LICENSE",
+            "README.md",
+            "index.d.ts",
+            "index.js",
+            "package.json",
+            "tsconfig.json"
+          ],
+          ".github": {
+            "files": [
+              "FUNDING.yml"
+            ]
+          }
+        },
+        "http-errors": {
+          "files": [
+            "HISTORY.md",
+            "LICENSE",
+            "README.md",
+            "index.js",
+            "package.json"
+          ],
+          "node_modules": {
+            "statuses": {
+              "files": [
+                "HISTORY.md",
+                "LICENSE",
+                "README.md",
+                "codes.json",
+                "index.js",
+                "package.json"
+              ]
+            }
+          }
+        },
+        "iconv-lite": {
+          ".github": {
+            "files": [
+              "dependabot.yml"
+            ]
+          },
+          ".idea": {
+            "codeStyles": {
+              "files": [
+                "Project.xml",
+                "codeStyleConfig.xml"
+              ]
+            },
+            "files": [
+              "iconv-lite.iml",
+              "modules.xml",
+              "vcs.xml"
+            ],
+            "inspectionProfiles": {
+              "files": [
+                "Project_Default.xml"
+              ]
+            }
+          },
+          "files": [
+            "Changelog.md",
+            "LICENSE",
+            "README.md",
+            "package.json"
+          ],
+          "encodings": {
+            "files": [
+              "dbcs-codec.js",
+              "dbcs-data.js",
+              "index.js",
+              "internal.js",
+              "sbcs-codec.js",
+              "sbcs-data-generated.js",
+              "sbcs-data.js",
+              "utf16.js",
+              "utf32.js",
+              "utf7.js"
+            ],
+            "tables": {
+              "files": [
+                "big5-added.json",
+                "cp936.json",
+                "cp949.json",
+                "cp950.json",
+                "eucjp.json",
+                "gb18030-ranges.json",
+                "gbk-added.json",
+                "shiftjis.json"
+              ]
+            }
+          },
+          "lib": {
+            "files": [
+              "bom-handling.js",
+              "index.d.ts",
+              "index.js",
+              "streams.js"
+            ]
+          }
+        },
+        "ignore-by-default": {
+          "files": [
+            "LICENSE",
+            "README.md",
+            "index.js",
+            "package.json"
+          ]
+        },
+        "inherits": {
+          "files": [
+            "LICENSE",
+            "README.md",
+            "inherits.js",
+            "inherits_browser.js",
+            "package.json"
+          ]
+        },
+        "ipaddr.js": {
+          "files": [
+            "LICENSE",
+            "README.md",
+            "ipaddr.min.js",
+            "package.json"
+          ],
+          "lib": {
+            "files": [
+              "ipaddr.js",
+              "ipaddr.js.d.ts"
+            ]
+          }
+        },
+        "is-binary-path": {
+          "files": [
+            "index.d.ts",
+            "index.js",
+            "license",
+            "package.json",
+            "readme.md"
+          ]
+        },
+        "is-extglob": {
+          "files": [
+            "LICENSE",
+            "README.md",
+            "index.js",
+            "package.json"
+          ]
+        },
+        "is-glob": {
+          "files": [
+            "LICENSE",
+            "README.md",
+            "index.js",
+            "package.json"
+          ]
+        },
+        "is-number": {
+          "files": [
+            "LICENSE",
+            "README.md",
+            "index.js",
+            "package.json"
+          ]
+        },
+        "is-promise": {
+          "files": [
+            "LICENSE",
+            "index.d.ts",
+            "index.js",
+            "index.mjs",
+            "package.json",
+            "readme.md"
+          ]
+        },
+        "kareem": {
+          "files": [
+            "CHANGELOG.md",
+            "LICENSE",
+            "README.md",
+            "SECURITY.md",
+            "index.d.ts",
+            "index.js",
+            "package.json"
+          ]
+        },
+        "math-intrinsics": {
+          "files": [
+            ".eslintrc",
+            "CHANGELOG.md",
+            "LICENSE",
+            "README.md",
+            "abs.d.ts",
+            "abs.js",
+            "floor.d.ts",
+            "floor.js",
+            "isFinite.d.ts",
+            "isFinite.js",
+            "isInteger.d.ts",
+            "isInteger.js",
+            "isNaN.d.ts",
+            "isNaN.js",
+            "isNegativeZero.d.ts",
+            "isNegativeZero.js",
+            "max.d.ts",
+            "max.js",
+            "min.d.ts",
+            "min.js",
+            "mod.d.ts",
+            "mod.js",
+            "package.json",
+            "pow.d.ts",
+            "pow.js",
+            "round.d.ts",
+            "round.js",
+            "sign.d.ts",
+            "sign.js",
+            "tsconfig.json"
+          ],
+          ".github": {
+            "files": [
+              "FUNDING.yml"
+            ]
+          },
+          "constants": {
+            "files": [
+              "maxArrayLength.d.ts",
+              "maxArrayLength.js",
+              "maxSafeInteger.d.ts",
+              "maxSafeInteger.js",
+              "maxValue.d.ts",
+              "maxValue.js"
+            ]
+          },
+          "test": {
+            "files": [
+              "index.js"
+            ]
+          }
+        },
+        "media-typer": {
+          "files": [
+            "HISTORY.md",
+            "LICENSE",
+            "README.md",
+            "index.js",
+            "package.json"
+          ]
+        },
+        "memory-pager": {
+          "files": [
+            ".travis.yml",
+            "LICENSE",
+            "README.md",
+            "index.js",
+            "package.json",
+            "test.js"
+          ]
+        },
+        "merge-descriptors": {
+          "files": [
+            "index.d.ts",
+            "index.js",
+            "license",
+            "package.json",
+            "readme.md"
+          ]
+        },
+        "mime-db": {
+          "files": [
+            "HISTORY.md",
+            "LICENSE",
+            "README.md",
+            "db.json",
+            "index.js",
+            "package.json"
+          ]
+        },
+        "mime-types": {
+          "files": [
+            "HISTORY.md",
+            "LICENSE",
+            "README.md",
+            "index.js",
+            "mimeScore.js",
+            "package.json"
+          ]
+        },
+        "minimatch": {
+          "files": [
+            "LICENSE",
+            "README.md",
+            "minimatch.js",
+            "package.json"
+          ]
+        },
+        "mongodb": {
+          "files": [
+            "LICENSE.md",
+            "README.md",
+            "mongodb.d.ts",
+            "package.json",
+            "tsconfig.json"
+          ],
+          "etc": {
+            "files": [
+              "prepare.js"
+            ]
+          },
+          "lib": {
+            "files": [
+              "admin.js",
+              "admin.js.map",
+              "beta.d.ts",
+              "beta.js",
+              "beta.js.map",
+              "bson.js",
+              "bson.js.map",
+              "change_stream.js",
+              "change_stream.js.map",
+              "collection.js",
+              "collection.js.map",
+              "connection_string.js",
+              "connection_string.js.map",
+              "constants.js",
+              "constants.js.map",
+              "db.js",
+              "db.js.map",
+              "deps.js",
+              "deps.js.map",
+              "encrypter.js",
+              "encrypter.js.map",
+              "error.js",
+              "error.js.map",
+              "explain.js",
+              "explain.js.map",
+              "index.js",
+              "index.js.map",
+              "mongo_client.js",
+              "mongo_client.js.map",
+              "mongo_client_auth_providers.js",
+              "mongo_client_auth_providers.js.map",
+              "mongo_logger.js",
+              "mongo_logger.js.map",
+              "mongo_types.js",
+              "mongo_types.js.map",
+              "read_concern.js",
+              "read_concern.js.map",
+              "read_preference.js",
+              "read_preference.js.map",
+              "resource_management.js",
+              "resource_management.js.map",
+              "sessions.js",
+              "sessions.js.map",
+              "sort.js",
+              "sort.js.map",
+              "timeout.js",
+              "timeout.js.map",
+              "transactions.js",
+              "transactions.js.map",
+              "utils.js",
+              "utils.js.map",
+              "write_concern.js",
+              "write_concern.js.map"
+            ],
+            "bulk": {
+              "files": [
+                "common.js",
+                "common.js.map",
+                "ordered.js",
+                "ordered.js.map",
+                "unordered.js",
+                "unordered.js.map"
+              ]
+            },
+            "client-side-encryption": {
+              "files": [
+                "auto_encrypter.js",
+                "auto_encrypter.js.map",
+                "client_encryption.js",
+                "client_encryption.js.map",
+                "crypto_callbacks.js",
+                "crypto_callbacks.js.map",
+                "errors.js",
+                "errors.js.map",
+                "mongocryptd_manager.js",
+                "mongocryptd_manager.js.map",
+                "state_machine.js",
+                "state_machine.js.map"
+              ],
+              "providers": {
+                "files": [
+                  "aws.js",
+                  "aws.js.map",
+                  "azure.js",
+                  "azure.js.map",
+                  "gcp.js",
+                  "gcp.js.map",
+                  "index.js",
+                  "index.js.map"
+                ]
+              }
+            },
+            "cmap": {
+              "auth": {
+                "files": [
+                  "auth_provider.js",
+                  "auth_provider.js.map",
+                  "aws_temporary_credentials.js",
+                  "aws_temporary_credentials.js.map",
+                  "gssapi.js",
+                  "gssapi.js.map",
+                  "mongo_credentials.js",
+                  "mongo_credentials.js.map",
+                  "mongodb_aws.js",
+                  "mongodb_aws.js.map",
+                  "mongodb_oidc.js",
+                  "mongodb_oidc.js.map",
+                  "plain.js",
+                  "plain.js.map",
+                  "providers.js",
+                  "providers.js.map",
+                  "scram.js",
+                  "scram.js.map",
+                  "x509.js",
+                  "x509.js.map"
+                ],
+                "mongodb_oidc": {
+                  "files": [
+                    "automated_callback_workflow.js",
+                    "automated_callback_workflow.js.map",
+                    "azure_machine_workflow.js",
+                    "azure_machine_workflow.js.map",
+                    "callback_workflow.js",
+                    "callback_workflow.js.map",
+                    "command_builders.js",
+                    "command_builders.js.map",
+                    "gcp_machine_workflow.js",
+                    "gcp_machine_workflow.js.map",
+                    "human_callback_workflow.js",
+                    "human_callback_workflow.js.map",
+                    "k8s_machine_workflow.js",
+                    "k8s_machine_workflow.js.map",
+                    "token_cache.js",
+                    "token_cache.js.map",
+                    "token_machine_workflow.js",
+                    "token_machine_workflow.js.map"
+                  ]
+                }
+              },
+              "files": [
+                "command_monitoring_events.js",
+                "command_monitoring_events.js.map",
+                "commands.js",
+                "commands.js.map",
+                "connect.js",
+                "connect.js.map",
+                "connection.js",
+                "connection.js.map",
+                "connection_pool.js",
+                "connection_pool.js.map",
+                "connection_pool_events.js",
+                "connection_pool_events.js.map",
+                "errors.js",
+                "errors.js.map",
+                "metrics.js",
+                "metrics.js.map",
+                "stream_description.js",
+                "stream_description.js.map"
+              ],
+              "handshake": {
+                "files": [
+                  "client_metadata.js",
+                  "client_metadata.js.map"
+                ]
+              },
+              "wire_protocol": {
+                "files": [
+                  "compression.js",
+                  "compression.js.map",
+                  "constants.js",
+                  "constants.js.map",
+                  "on_data.js",
+                  "on_data.js.map",
+                  "responses.js",
+                  "responses.js.map",
+                  "shared.js",
+                  "shared.js.map"
+                ],
+                "on_demand": {
+                  "files": [
+                    "document.js",
+                    "document.js.map"
+                  ]
+                }
+              }
+            },
+            "cursor": {
+              "files": [
+                "abstract_cursor.js",
+                "abstract_cursor.js.map",
+                "aggregation_cursor.js",
+                "aggregation_cursor.js.map",
+                "change_stream_cursor.js",
+                "change_stream_cursor.js.map",
+                "client_bulk_write_cursor.js",
+                "client_bulk_write_cursor.js.map",
+                "find_cursor.js",
+                "find_cursor.js.map",
+                "list_collections_cursor.js",
+                "list_collections_cursor.js.map",
+                "list_indexes_cursor.js",
+                "list_indexes_cursor.js.map",
+                "list_search_indexes_cursor.js",
+                "list_search_indexes_cursor.js.map",
+                "run_command_cursor.js",
+                "run_command_cursor.js.map"
+              ]
+            },
+            "gridfs": {
+              "files": [
+                "download.js",
+                "download.js.map",
+                "index.js",
+                "index.js.map",
+                "upload.js",
+                "upload.js.map"
+              ]
+            },
+            "operations": {
+              "files": [
+                "aggregate.js",
+                "aggregate.js.map",
+                "bulk_write.js",
+                "bulk_write.js.map",
+                "collections.js",
+                "collections.js.map",
+                "command.js",
+                "command.js.map",
+                "count.js",
+                "count.js.map",
+                "create_collection.js",
+                "create_collection.js.map",
+                "delete.js",
+                "delete.js.map",
+                "distinct.js",
+                "distinct.js.map",
+                "drop.js",
+                "drop.js.map",
+                "estimated_document_count.js",
+                "estimated_document_count.js.map",
+                "execute_operation.js",
+                "execute_operation.js.map",
+                "find.js",
+                "find.js.map",
+                "find_and_modify.js",
+                "find_and_modify.js.map",
+                "get_more.js",
+                "get_more.js.map",
+                "indexes.js",
+                "indexes.js.map",
+                "insert.js",
+                "insert.js.map",
+                "is_capped.js",
+                "is_capped.js.map",
+                "kill_cursors.js",
+                "kill_cursors.js.map",
+                "list_collections.js",
+                "list_collections.js.map",
+                "list_databases.js",
+                "list_databases.js.map",
+                "operation.js",
+                "operation.js.map",
+                "options_operation.js",
+                "options_operation.js.map",
+                "profiling_level.js",
+                "profiling_level.js.map",
+                "remove_user.js",
+                "remove_user.js.map",
+                "rename.js",
+                "rename.js.map",
+                "run_command.js",
+                "run_command.js.map",
+                "set_profiling_level.js",
+                "set_profiling_level.js.map",
+                "stats.js",
+                "stats.js.map",
+                "update.js",
+                "update.js.map",
+                "validate_collection.js",
+                "validate_collection.js.map"
+              ],
+              "client_bulk_write": {
+                "files": [
+                  "client_bulk_write.js",
+                  "client_bulk_write.js.map",
+                  "command_builder.js",
+                  "command_builder.js.map",
+                  "common.js",
+                  "common.js.map",
+                  "executor.js",
+                  "executor.js.map",
+                  "results_merger.js",
+                  "results_merger.js.map"
+                ]
+              },
+              "search_indexes": {
+                "files": [
+                  "create.js",
+                  "create.js.map",
+                  "drop.js",
+                  "drop.js.map",
+                  "update.js",
+                  "update.js.map"
+                ]
+              }
+            },
+            "sdam": {
+              "files": [
+                "common.js",
+                "common.js.map",
+                "events.js",
+                "events.js.map",
+                "monitor.js",
+                "monitor.js.map",
+                "server.js",
+                "server.js.map",
+                "server_description.js",
+                "server_description.js.map",
+                "server_selection.js",
+                "server_selection.js.map",
+                "server_selection_events.js",
+                "server_selection_events.js.map",
+                "srv_polling.js",
+                "srv_polling.js.map",
+                "topology.js",
+                "topology.js.map",
+                "topology_description.js",
+                "topology_description.js.map"
+              ]
+            }
+          },
+          "src": {
+            "files": [
+              "admin.ts",
+              "beta.ts",
+              "bson.ts",
+              "change_stream.ts",
+              "collection.ts",
+              "connection_string.ts",
+              "constants.ts",
+              "db.ts",
+              "deps.ts",
+              "encrypter.ts",
+              "error.ts",
+              "explain.ts",
+              "index.ts",
+              "mongo_client.ts",
+              "mongo_client_auth_providers.ts",
+              "mongo_logger.ts",
+              "mongo_types.ts",
+              "read_concern.ts",
+              "read_preference.ts",
+              "resource_management.ts",
+              "sessions.ts",
+              "sort.ts",
+              "timeout.ts",
+              "transactions.ts",
+              "utils.ts",
+              "write_concern.ts"
+            ],
+            "bulk": {
+              "files": [
+                "common.ts",
+                "ordered.ts",
+                "unordered.ts"
+              ]
+            },
+            "client-side-encryption": {
+              "files": [
+                "auto_encrypter.ts",
+                "client_encryption.ts",
+                "crypto_callbacks.ts",
+                "errors.ts",
+                "mongocryptd_manager.ts",
+                "state_machine.ts"
+              ],
+              "providers": {
+                "files": [
+                  "aws.ts",
+                  "azure.ts",
+                  "gcp.ts",
+                  "index.ts"
+                ]
+              }
+            },
+            "cmap": {
+              "auth": {
+                "files": [
+                  "auth_provider.ts",
+                  "aws_temporary_credentials.ts",
+                  "gssapi.ts",
+                  "mongo_credentials.ts",
+                  "mongodb_aws.ts",
+                  "mongodb_oidc.ts",
+                  "plain.ts",
+                  "providers.ts",
+                  "scram.ts",
+                  "x509.ts"
+                ],
+                "mongodb_oidc": {
+                  "files": [
+                    "automated_callback_workflow.ts",
+                    "azure_machine_workflow.ts",
+                    "callback_workflow.ts",
+                    "command_builders.ts",
+                    "gcp_machine_workflow.ts",
+                    "human_callback_workflow.ts",
+                    "k8s_machine_workflow.ts",
+                    "token_cache.ts",
+                    "token_machine_workflow.ts"
+                  ]
+                }
+              },
+              "files": [
+                "command_monitoring_events.ts",
+                "commands.ts",
+                "connect.ts",
+                "connection.ts",
+                "connection_pool.ts",
+                "connection_pool_events.ts",
+                "errors.ts",
+                "metrics.ts",
+                "stream_description.ts"
+              ],
+              "handshake": {
+                "files": [
+                  "client_metadata.ts"
+                ]
+              },
+              "wire_protocol": {
+                "files": [
+                  "compression.ts",
+                  "constants.ts",
+                  "on_data.ts",
+                  "responses.ts",
+                  "shared.ts"
+                ],
+                "on_demand": {
+                  "files": [
+                    "document.ts"
+                  ]
+                }
+              }
+            },
+            "cursor": {
+              "files": [
+                "abstract_cursor.ts",
+                "aggregation_cursor.ts",
+                "change_stream_cursor.ts",
+                "client_bulk_write_cursor.ts",
+                "find_cursor.ts",
+                "list_collections_cursor.ts",
+                "list_indexes_cursor.ts",
+                "list_search_indexes_cursor.ts",
+                "run_command_cursor.ts"
+              ]
+            },
+            "gridfs": {
+              "files": [
+                "download.ts",
+                "index.ts",
+                "upload.ts"
+              ]
+            },
+            "operations": {
+              "files": [
+                "aggregate.ts",
+                "bulk_write.ts",
+                "collections.ts",
+                "command.ts",
+                "count.ts",
+                "create_collection.ts",
+                "delete.ts",
+                "distinct.ts",
+                "drop.ts",
+                "estimated_document_count.ts",
+                "execute_operation.ts",
+                "find.ts",
+                "find_and_modify.ts",
+                "get_more.ts",
+                "indexes.ts",
+                "insert.ts",
+                "is_capped.ts",
+                "kill_cursors.ts",
+                "list_collections.ts",
+                "list_databases.ts",
+                "operation.ts",
+                "options_operation.ts",
+                "profiling_level.ts",
+                "remove_user.ts",
+                "rename.ts",
+                "run_command.ts",
+                "set_profiling_level.ts",
+                "stats.ts",
+                "update.ts",
+                "validate_collection.ts"
+              ],
+              "client_bulk_write": {
+                "files": [
+                  "client_bulk_write.ts",
+                  "command_builder.ts",
+                  "common.ts",
+                  "executor.ts",
+                  "results_merger.ts"
+                ]
+              },
+              "search_indexes": {
+                "files": [
+                  "create.ts",
+                  "drop.ts",
+                  "update.ts"
+                ]
+              }
+            },
+            "sdam": {
+              "files": [
+                "common.ts",
+                "events.ts",
+                "monitor.ts",
+                "server.ts",
+                "server_description.ts",
+                "server_selection.ts",
+                "server_selection_events.ts",
+                "srv_polling.ts",
+                "topology.ts",
+                "topology_description.ts"
+              ]
+            }
+          }
+        },
+        "mongodb-connection-string-url": {
+          "files": [
+            ".esm-wrapper.mjs",
+            "LICENSE",
+            "README.md",
+            "package.json"
+          ],
+          "lib": {
+            "files": [
+              "index.d.ts",
+              "index.js",
+              "index.js.map",
+              "redact.d.ts",
+              "redact.js",
+              "redact.js.map"
+            ]
+          }
+        },
+        "mongoose": {
+          "files": [
+            "LICENSE.md",
+            "README.md",
+            "SECURITY.md",
+            "browser.js",
+            "index.js",
+            "package.json"
+          ],
+          "dist": {
+            "files": [
+              "browser.umd.js"
+            ]
+          },
+          "lib": {
+            "files": [
+              "aggregate.js",
+              "browser.js",
+              "browserDocument.js",
+              "cast.js",
+              "collection.js",
+              "connection.js",
+              "connectionState.js",
+              "constants.js",
+              "document.js",
+              "documentProvider.js",
+              "driver.js",
+              "index.js",
+              "internal.js",
+              "model.js",
+              "modifiedPathsSnapshot.js",
+              "mongoose.js",
+              "options.js",
+              "query.js",
+              "queryHelpers.js",
+              "schema.js",
+              "schemaType.js",
+              "stateMachine.js",
+              "utils.js",
+              "validOptions.js",
+              "virtualType.js"
+            ],
+            "cast": {
+              "files": [
+                "bigint.js",
+                "boolean.js",
+                "date.js",
+                "decimal128.js",
+                "double.js",
+                "int32.js",
+                "number.js",
+                "objectid.js",
+                "string.js",
+                "uuid.js"
+              ]
+            },
+            "cursor": {
+              "files": [
+                "aggregationCursor.js",
+                "changeStream.js",
+                "queryCursor.js"
+              ]
+            },
+            "drivers": {
+              "files": [
+                "SPEC.md"
+              ],
+              "browser": {
+                "files": [
+                  "binary.js",
+                  "decimal128.js",
+                  "index.js",
+                  "objectid.js"
+                ]
+              },
+              "node-mongodb-native": {
+                "files": [
+                  "bulkWriteResult.js",
+                  "collection.js",
+                  "connection.js",
+                  "index.js"
+                ]
+              }
+            },
+            "error": {
+              "files": [
+                "browserMissingSchema.js",
+                "bulkSaveIncompleteError.js",
+                "bulkWriteError.js",
+                "cast.js",
+                "createCollectionsError.js",
+                "divergentArray.js",
+                "eachAsyncMultiError.js",
+                "index.js",
+                "invalidSchemaOption.js",
+                "messages.js",
+                "missingSchema.js",
+                "mongooseError.js",
+                "notFound.js",
+                "objectExpected.js",
+                "objectParameter.js",
+                "overwriteModel.js",
+                "parallelSave.js",
+                "parallelValidate.js",
+                "serverSelection.js",
+                "setOptionError.js",
+                "strict.js",
+                "strictPopulate.js",
+                "syncIndexes.js",
+                "validation.js",
+                "validator.js",
+                "version.js"
+              ]
+            },
+            "helpers": {
+              "aggregate": {
+                "files": [
+                  "prepareDiscriminatorPipeline.js",
+                  "stringifyFunctionOperators.js"
+                ]
+              },
+              "files": [
+                "arrayDepth.js",
+                "clone.js",
+                "common.js",
+                "createJSONSchemaTypeDefinition.js",
+                "each.js",
+                "firstKey.js",
+                "get.js",
+                "getConstructorName.js",
+                "getDefaultBulkwriteResult.js",
+                "getFunctionName.js",
+                "immediate.js",
+                "isAsyncFunction.js",
+                "isBsonType.js",
+                "isMongooseObject.js",
+                "isObject.js",
+                "isPOJO.js",
+                "isPromise.js",
+                "isSimpleValidator.js",
+                "minimize.js",
+                "omitUndefined.js",
+                "once.js",
+                "parallelLimit.js",
+                "pluralize.js",
+                "printJestWarning.js",
+                "processConnectionOptions.js",
+                "promiseOrCallback.js",
+                "setDefaultsOnInsert.js",
+                "specialProperties.js",
+                "symbols.js",
+                "timers.js",
+                "updateValidators.js"
+              ],
+              "cursor": {
+                "files": [
+                  "eachAsync.js"
+                ]
+              },
+              "discriminator": {
+                "files": [
+                  "applyEmbeddedDiscriminators.js",
+                  "areDiscriminatorValuesEqual.js",
+                  "checkEmbeddedDiscriminatorKeyProjection.js",
+                  "getConstructor.js",
+                  "getDiscriminatorByValue.js",
+                  "getSchemaDiscriminatorByValue.js",
+                  "mergeDiscriminatorSchema.js"
+                ]
+              },
+              "document": {
+                "files": [
+                  "applyDefaults.js",
+                  "applyTimestamps.js",
+                  "applyVirtuals.js",
+                  "cleanModifiedSubpaths.js",
+                  "compile.js",
+                  "getDeepestSubdocumentForPath.js",
+                  "getEmbeddedDiscriminatorPath.js",
+                  "handleSpreadDoc.js"
+                ]
+              },
+              "error": {
+                "files": [
+                  "combinePathErrors.js"
+                ]
+              },
+              "indexes": {
+                "files": [
+                  "applySchemaCollation.js",
+                  "decorateDiscriminatorIndexOptions.js",
+                  "getRelatedIndexes.js",
+                  "isDefaultIdIndex.js",
+                  "isIndexEqual.js",
+                  "isIndexSpecEqual.js",
+                  "isTextIndex.js",
+                  "isTimeseriesIndex.js"
+                ]
+              },
+              "model": {
+                "files": [
+                  "applyDefaultsToPOJO.js",
+                  "applyHooks.js",
+                  "applyMethods.js",
+                  "applyStaticHooks.js",
+                  "applyStatics.js",
+                  "castBulkWrite.js",
+                  "decorateBulkWriteResult.js",
+                  "discriminator.js",
+                  "pushNestedArrayPaths.js"
+                ]
+              },
+              "path": {
+                "files": [
+                  "parentPaths.js",
+                  "setDottedPath.js"
+                ]
+              },
+              "populate": {
+                "files": [
+                  "assignRawDocsToIdStructure.js",
+                  "assignVals.js",
+                  "createPopulateQueryFilter.js",
+                  "getModelsMapForPopulate.js",
+                  "getSchemaTypes.js",
+                  "getVirtual.js",
+                  "leanPopulateMap.js",
+                  "lookupLocalFields.js",
+                  "markArraySubdocsPopulated.js",
+                  "modelNamesFromRefPath.js",
+                  "removeDeselectedForeignField.js",
+                  "setPopulatedVirtualValue.js",
+                  "skipPopulateValue.js",
+                  "validateRef.js"
+                ]
+              },
+              "projection": {
+                "files": [
+                  "applyProjection.js",
+                  "hasIncludedChildren.js",
+                  "isDefiningProjection.js",
+                  "isExclusive.js",
+                  "isInclusive.js",
+                  "isNestedProjection.js",
+                  "isPathExcluded.js",
+                  "isPathSelectedInclusive.js",
+                  "isSubpath.js",
+                  "parseProjection.js"
+                ]
+              },
+              "query": {
+                "files": [
+                  "applyGlobalOption.js",
+                  "cast$expr.js",
+                  "castFilterPath.js",
+                  "castUpdate.js",
+                  "getEmbeddedDiscriminatorPath.js",
+                  "handleImmutable.js",
+                  "handleReadPreferenceAliases.js",
+                  "hasDollarKeys.js",
+                  "isOperator.js",
+                  "sanitizeFilter.js",
+                  "sanitizeProjection.js",
+                  "selectPopulatedFields.js",
+                  "trusted.js",
+                  "validOps.js"
+                ]
+              },
+              "schema": {
+                "files": [
+                  "addAutoId.js",
+                  "applyBuiltinPlugins.js",
+                  "applyPlugins.js",
+                  "applyReadConcern.js",
+                  "applyWriteConcern.js",
+                  "cleanPositionalOperators.js",
+                  "getIndexes.js",
+                  "getKeysInSchemaOrder.js",
+                  "getPath.js",
+                  "getSubdocumentStrictValue.js",
+                  "handleIdOption.js",
+                  "handleTimestampOption.js",
+                  "idGetter.js",
+                  "merge.js"
+                ]
+              },
+              "schematype": {
+                "files": [
+                  "handleImmutable.js"
+                ]
+              },
+              "timestamps": {
+                "files": [
+                  "setDocumentTimestamps.js",
+                  "setupTimestamps.js"
+                ]
+              },
+              "topology": {
+                "files": [
+                  "allServersUnknown.js",
+                  "isAtlas.js",
+                  "isSSLError.js"
+                ]
+              },
+              "update": {
+                "files": [
+                  "applyTimestampsToChildren.js",
+                  "applyTimestampsToUpdate.js",
+                  "castArrayFilters.js",
+                  "decorateUpdateWithVersionKey.js",
+                  "modifiedPaths.js",
+                  "moveImmutableProperties.js",
+                  "removeUnusedArrayFilters.js",
+                  "updatedPathsByArrayFilter.js"
+                ]
+              }
+            },
+            "options": {
+              "files": [
+                "populateOptions.js",
+                "propertyOptions.js",
+                "saveOptions.js",
+                "schemaArrayOptions.js",
+                "schemaBufferOptions.js",
+                "schemaDateOptions.js",
+                "schemaDocumentArrayOptions.js",
+                "schemaMapOptions.js",
+                "schemaNumberOptions.js",
+                "schemaObjectIdOptions.js",
+                "schemaStringOptions.js",
+                "schemaSubdocumentOptions.js",
+                "schemaTypeOptions.js",
+                "virtualOptions.js"
+              ]
+            },
+            "plugins": {
+              "files": [
+                "index.js",
+                "saveSubdocs.js",
+                "sharding.js",
+                "trackTransaction.js",
+                "validateBeforeSave.js"
+              ]
+            },
+            "schema": {
+              "files": [
+                "array.js",
+                "bigint.js",
+                "boolean.js",
+                "buffer.js",
+                "date.js",
+                "decimal128.js",
+                "documentArray.js",
+                "documentArrayElement.js",
+                "double.js",
+                "index.js",
+                "int32.js",
+                "map.js",
+                "mixed.js",
+                "number.js",
+                "objectId.js",
+                "string.js",
+                "subdocument.js",
+                "symbols.js",
+                "uuid.js"
+              ],
+              "operators": {
+                "files": [
+                  "bitwise.js",
+                  "exists.js",
+                  "geospatial.js",
+                  "helpers.js",
+                  "text.js",
+                  "type.js"
+                ]
+              }
+            },
+            "types": {
+              "array": {
+                "files": [
+                  "index.js",
+                  "isMongooseArray.js"
+                ],
+                "methods": {
+                  "files": [
+                    "index.js"
+                  ]
+                }
+              },
+              "files": [
+                "arraySubdocument.js",
+                "buffer.js",
+                "decimal128.js",
+                "double.js",
+                "index.js",
+                "map.js",
+                "objectid.js",
+                "subdocument.js",
+                "uuid.js"
+              ],
+              "documentArray": {
+                "files": [
+                  "index.js",
+                  "isMongooseDocumentArray.js"
+                ],
+                "methods": {
+                  "files": [
+                    "index.js"
+                  ]
+                }
+              }
+            }
+          },
+          "types": {
+            "files": [
+              "aggregate.d.ts",
+              "augmentations.d.ts",
+              "callback.d.ts",
+              "collection.d.ts",
+              "connection.d.ts",
+              "cursor.d.ts",
+              "document.d.ts",
+              "error.d.ts",
+              "expressions.d.ts",
+              "helpers.d.ts",
+              "index.d.ts",
+              "indexes.d.ts",
+              "inferrawdoctype.d.ts",
+              "inferschematype.d.ts",
+              "middlewares.d.ts",
+              "models.d.ts",
+              "mongooseoptions.d.ts",
+              "pipelinestage.d.ts",
+              "populate.d.ts",
+              "query.d.ts",
+              "schemaoptions.d.ts",
+              "schematypes.d.ts",
+              "session.d.ts",
+              "types.d.ts",
+              "utility.d.ts",
+              "validation.d.ts",
+              "virtuals.d.ts"
+            ]
+          }
+        },
+        "mpath": {
+          "files": [
+            ".travis.yml",
+            "History.md",
+            "LICENSE",
+            "README.md",
+            "SECURITY.md",
+            "index.js",
+            "package.json"
+          ],
+          "lib": {
+            "files": [
+              "index.js",
+              "stringToParts.js"
+            ]
+          },
+          "test": {
+            "files": [
+              ".eslintrc.yml",
+              "index.js",
+              "stringToParts.js"
+            ]
+          }
+        },
+        "mquery": {
+          ".github": {
+            "files": [
+              "ISSUE_TEMPLATE.md",
+              "PULL_REQUEST_TEMPLATE.md"
+            ]
+          },
+          "files": [
+            "History.md",
+            "LICENSE",
+            "README.md",
+            "SECURITY.md",
+            "package.json"
+          ],
+          "lib": {
+            "collection": {
+              "files": [
+                "collection.js",
+                "index.js",
+                "node.js"
+              ]
+            },
+            "files": [
+              "env.js",
+              "mquery.js",
+              "permissions.js",
+              "utils.js"
+            ]
+          }
+        },
+        "ms": {
+          "files": [
+            "index.js",
+            "license.md",
+            "package.json",
+            "readme.md"
+          ]
+        },
+        "negotiator": {
+          "files": [
+            "HISTORY.md",
+            "LICENSE",
+            "README.md",
+            "index.js",
+            "package.json"
+          ],
+          "lib": {
+            "files": [
+              "charset.js",
+              "encoding.js",
+              "language.js",
+              "mediaType.js"
+            ]
+          }
+        },
+        "nodemon": {
+          "files": [
+            ".prettierrc.json",
+            "LICENSE",
+            "README.md",
+            "index.d.ts",
+            "jsconfig.json",
+            "package.json"
+          ],
+          "bin": {
+            "files": [
+              "nodemon.js",
+              "windows-kill.exe"
+            ]
+          },
+          "doc": {
+            "cli": {
+              "files": [
+                "authors.txt",
+                "config.txt",
+                "help.txt",
+                "logo.txt",
+                "options.txt",
+                "topics.txt",
+                "usage.txt",
+                "whoami.txt"
+              ]
+            }
+          },
+          "lib": {
+            "cli": {
+              "files": [
+                "index.js",
+                "parse.js"
+              ]
+            },
+            "config": {
+              "files": [
+                "command.js",
+                "defaults.js",
+                "exec.js",
+                "index.js",
+                "load.js"
+              ]
+            },
+            "help": {
+              "files": [
+                "index.js"
+              ]
+            },
+            "files": [
+              "index.js",
+              "nodemon.js",
+              "spawn.js",
+              "version.js"
+            ],
+            "monitor": {
+              "files": [
+                "index.js",
+                "match.js",
+                "run.js",
+                "signals.js",
+                "watch.js"
+              ]
+            },
+            "rules": {
+              "files": [
+                "add.js",
+                "index.js",
+                "parse.js"
+              ]
+            },
+            "utils": {
+              "files": [
+                "bus.js",
+                "clone.js",
+                "colour.js",
+                "index.js",
+                "log.js",
+                "merge.js"
+              ]
+            }
+          }
+        },
+        "normalize-path": {
+          "files": [
+            "LICENSE",
+            "README.md",
+            "index.js",
+            "package.json"
+          ]
+        },
+        "object-assign": {
+          "files": [
+            "index.js",
+            "license",
+            "package.json",
+            "readme.md"
+          ]
+        },
+        "object-inspect": {
+          "files": [
+            ".eslintrc",
+            ".nycrc",
+            "CHANGELOG.md",
+            "LICENSE",
+            "index.js",
+            "package-support.json",
+            "package.json",
+            "readme.markdown",
+            "test-core-js.js",
+            "util.inspect.js"
+          ],
+          ".github": {
+            "files": [
+              "FUNDING.yml"
+            ]
+          },
+          "example": {
+            "files": [
+              "all.js",
+              "circular.js",
+              "fn.js",
+              "inspect.js"
+            ]
+          },
+          "test": {
+            "files": [
+              "bigint.js",
+              "circular.js",
+              "deep.js",
+              "element.js",
+              "err.js",
+              "fakes.js",
+              "fn.js",
+              "global.js",
+              "has.js",
+              "holes.js",
+              "indent-option.js",
+              "inspect.js",
+              "lowbyte.js",
+              "number.js",
+              "quoteStyle.js",
+              "toStringTag.js",
+              "undef.js",
+              "values.js"
+            ],
+            "browser": {
+              "files": [
+                "dom.js"
+              ]
+            }
+          }
+        },
+        "on-finished": {
+          "files": [
+            "HISTORY.md",
+            "LICENSE",
+            "README.md",
+            "index.js",
+            "package.json"
+          ]
+        },
+        "once": {
+          "files": [
+            "LICENSE",
+            "README.md",
+            "once.js",
+            "package.json"
+          ]
+        },
+        "parseurl": {
+          "files": [
+            "HISTORY.md",
+            "LICENSE",
+            "README.md",
+            "index.js",
+            "package.json"
+          ]
+        },
+        "path-to-regexp": {
+          "files": [
+            "LICENSE",
+            "Readme.md",
+            "package.json"
+          ],
+          "dist": {
+            "files": [
+              "index.d.ts",
+              "index.js",
+              "index.js.map"
+            ]
+          }
+        },
+        "picomatch": {
+          "files": [
+            "CHANGELOG.md",
+            "LICENSE",
+            "README.md",
+            "index.js",
+            "package.json"
+          ],
+          "lib": {
+            "files": [
+              "constants.js",
+              "parse.js",
+              "picomatch.js",
+              "scan.js",
+              "utils.js"
+            ]
+          }
+        },
+        "proxy-addr": {
+          "files": [
+            "HISTORY.md",
+            "LICENSE",
+            "README.md",
+            "index.js",
+            "package.json"
+          ]
+        },
+        "pstree.remy": {
+          "files": [
+            ".travis.yml",
+            "LICENSE",
+            "README.md",
+            "package.json"
+          ],
+          "lib": {
+            "files": [
+              "index.js",
+              "tree.js",
+              "utils.js"
+            ]
+          },
+          "tests": {
+            "fixtures": {
+              "files": [
+                "index.js",
+                "out1",
+                "out2"
+              ]
+            },
+            "files": [
+              "index.test.js"
+            ]
+          }
+        },
+        "punycode": {
+          "files": [
+            "LICENSE-MIT.txt",
+            "README.md",
+            "package.json",
+            "punycode.es6.js",
+            "punycode.js"
+          ]
+        },
+        "qs": {
+          "files": [
+            ".editorconfig",
+            ".eslintrc",
+            ".nycrc",
+            "CHANGELOG.md",
+            "LICENSE.md",
+            "README.md",
+            "package.json"
+          ],
+          ".github": {
+            "files": [
+              "FUNDING.yml"
+            ]
+          },
+          "dist": {
+            "files": [
+              "qs.js"
+            ]
+          },
+          "lib": {
+            "files": [
+              "formats.js",
+              "index.js",
+              "parse.js",
+              "stringify.js",
+              "utils.js"
+            ]
+          },
+          "test": {
+            "files": [
+              "empty-keys-cases.js",
+              "parse.js",
+              "stringify.js",
+              "utils.js"
+            ]
+          }
+        },
+        "range-parser": {
+          "files": [
+            "HISTORY.md",
+            "LICENSE",
+            "README.md",
+            "index.js",
+            "package.json"
+          ]
+        },
+        "raw-body": {
+          "files": [
+            "HISTORY.md",
+            "LICENSE",
+            "README.md",
+            "SECURITY.md",
+            "index.d.ts",
+            "index.js",
+            "package.json"
+          ]
+        },
+        "readdirp": {
+          "files": [
+            "LICENSE",
+            "README.md",
+            "index.d.ts",
+            "index.js",
+            "package.json"
+          ]
+        },
+        "router": {
+          "files": [
+            "HISTORY.md",
+            "LICENSE",
+            "README.md",
+            "index.js",
+            "package.json"
+          ],
+          "lib": {
+            "files": [
+              "layer.js",
+              "route.js"
+            ]
+          }
+        },
+        "safe-buffer": {
+          "files": [
+            "LICENSE",
+            "README.md",
+            "index.d.ts",
+            "index.js",
+            "package.json"
+          ]
+        },
+        "safer-buffer": {
+          "files": [
+            "LICENSE",
+            "Porting-Buffer.md",
+            "Readme.md",
+            "dangerous.js",
+            "package.json",
+            "safer.js",
+            "tests.js"
+          ]
+        },
+        "semver": {
+          "files": [
+            "LICENSE",
+            "README.md",
+            "index.js",
+            "package.json",
+            "preload.js",
+            "range.bnf"
+          ],
+          "bin": {
+            "files": [
+              "semver.js"
+            ]
+          },
+          "classes": {
+            "files": [
+              "comparator.js",
+              "index.js",
+              "range.js",
+              "semver.js"
+            ]
+          },
+          "functions": {
+            "files": [
+              "clean.js",
+              "cmp.js",
+              "coerce.js",
+              "compare-build.js",
+              "compare-loose.js",
+              "compare.js",
+              "diff.js",
+              "eq.js",
+              "gt.js",
+              "gte.js",
+              "inc.js",
+              "lt.js",
+              "lte.js",
+              "major.js",
+              "minor.js",
+              "neq.js",
+              "parse.js",
+              "patch.js",
+              "prerelease.js",
+              "rcompare.js",
+              "rsort.js",
+              "satisfies.js",
+              "sort.js",
+              "valid.js"
+            ]
+          },
+          "internal": {
+            "files": [
+              "constants.js",
+              "debug.js",
+              "identifiers.js",
+              "lrucache.js",
+              "parse-options.js",
+              "re.js"
+            ]
+          },
+          "ranges": {
+            "files": [
+              "gtr.js",
+              "intersects.js",
+              "ltr.js",
+              "max-satisfying.js",
+              "min-satisfying.js",
+              "min-version.js",
+              "outside.js",
+              "simplify.js",
+              "subset.js",
+              "to-comparators.js",
+              "valid.js"
+            ]
+          }
+        },
+        "send": {
+          "files": [
+            "HISTORY.md",
+            "LICENSE",
+            "README.md",
+            "index.js",
+            "package.json"
+          ]
+        },
+        "serve-static": {
+          "files": [
+            "HISTORY.md",
+            "LICENSE",
+            "README.md",
+            "index.js",
+            "package.json"
+          ]
+        },
+        "setprototypeof": {
+          "files": [
+            "LICENSE",
+            "README.md",
+            "index.d.ts",
+            "index.js",
+            "package.json"
+          ],
+          "test": {
+            "files": [
+              "index.js"
+            ]
+          }
+        },
+        "side-channel": {
+          "files": [
+            ".editorconfig",
+            ".eslintrc",
+            ".nycrc",
+            "CHANGELOG.md",
+            "LICENSE",
+            "README.md",
+            "index.d.ts",
+            "index.js",
+            "package.json",
+            "tsconfig.json"
+          ],
+          ".github": {
+            "files": [
+              "FUNDING.yml"
+            ]
+          },
+          "test": {
+            "files": [
+              "index.js"
+            ]
+          }
+        },
+        "side-channel-list": {
+          "files": [
+            ".editorconfig",
+            ".eslintrc",
+            ".nycrc",
+            "CHANGELOG.md",
+            "LICENSE",
+            "README.md",
+            "index.d.ts",
+            "index.js",
+            "list.d.ts",
+            "package.json",
+            "tsconfig.json"
+          ],
+          ".github": {
+            "files": [
+              "FUNDING.yml"
+            ]
+          },
+          "test": {
+            "files": [
+              "index.js"
+            ]
+          }
+        },
+        "side-channel-map": {
+          "files": [
+            ".editorconfig",
+            ".eslintrc",
+            ".nycrc",
+            "CHANGELOG.md",
+            "LICENSE",
+            "README.md",
+            "index.d.ts",
+            "index.js",
+            "package.json",
+            "tsconfig.json"
+          ],
+          ".github": {
+            "files": [
+              "FUNDING.yml"
+            ]
+          },
+          "test": {
+            "files": [
+              "index.js"
+            ]
+          }
+        },
+        "side-channel-weakmap": {
+          "files": [
+            ".editorconfig",
+            ".eslintrc",
+            ".nycrc",
+            "CHANGELOG.md",
+            "LICENSE",
+            "README.md",
+            "index.d.ts",
+            "index.js",
+            "package.json",
+            "tsconfig.json"
+          ],
+          ".github": {
+            "files": [
+              "FUNDING.yml"
+            ]
+          },
+          "test": {
+            "files": [
+              "index.js"
+            ]
+          }
+        },
+        "sift": {
+          "files": [
+            "MIT-LICENSE.txt",
+            "README.md",
+            "index.d.ts",
+            "index.js",
+            "package.json",
+            "sift.csp.min.js",
+            "sift.csp.min.js.map",
+            "sift.min.js",
+            "sift.min.js.map"
+          ],
+          "es": {
+            "files": [
+              "index.js",
+              "index.js.map"
+            ]
+          },
+          "es5m": {
+            "files": [
+              "index.js",
+              "index.js.map"
+            ]
+          },
+          "lib": {
+            "files": [
+              "core.d.ts",
+              "index.d.ts",
+              "index.js",
+              "index.js.map",
+              "operations.d.ts",
+              "utils.d.ts"
+            ]
+          },
+          "src": {
+            "files": [
+              "core.ts",
+              "index.ts",
+              "operations.ts",
+              "utils.ts"
+            ]
+          }
+        },
+        "simple-update-notifier": {
+          "files": [
+            "LICENSE",
+            "README.md",
+            "package.json"
+          ],
+          "build": {
+            "files": [
+              "index.d.ts",
+              "index.js"
+            ]
+          },
+          "src": {
+            "files": [
+              "borderedText.ts",
+              "cache.spec.ts",
+              "cache.ts",
+              "getDistVersion.spec.ts",
+              "getDistVersion.ts",
+              "hasNewVersion.spec.ts",
+              "hasNewVersion.ts",
+              "index.spec.ts",
+              "index.ts",
+              "isNpmOrYarn.ts",
+              "types.ts"
+            ]
+          }
+        },
+        "sparse-bitfield": {
+          "files": [
+            ".npmignore",
+            ".travis.yml",
+            "LICENSE",
+            "README.md",
+            "index.js",
+            "package.json",
+            "test.js"
+          ]
+        },
+        "statuses": {
+          "files": [
+            "HISTORY.md",
+            "LICENSE",
+            "README.md",
+            "codes.json",
+            "index.js",
+            "package.json"
+          ]
+        },
+        "supports-color": {
+          "files": [
+            "browser.js",
+            "index.js",
+            "license",
+            "package.json",
+            "readme.md"
+          ]
+        },
+        "to-regex-range": {
+          "files": [
+            "LICENSE",
+            "README.md",
+            "index.js",
+            "package.json"
+          ]
+        },
+        "toidentifier": {
+          "files": [
+            "HISTORY.md",
+            "LICENSE",
+            "README.md",
+            "index.js",
+            "package.json"
+          ]
+        },
+        "touch": {
+          "files": [
+            "LICENSE",
+            "README.md",
+            "index.js",
+            "package.json"
+          ],
+          "bin": {
+            "files": [
+              "nodetouch.js"
+            ]
+          }
+        },
+        "tr46": {
+          "files": [
+            "LICENSE.md",
+            "README.md",
+            "index.js",
+            "package.json"
+          ],
+          "lib": {
+            "files": [
+              "mappingTable.json",
+              "regexes.js",
+              "statusMapping.js"
+            ]
+          }
+        },
+        "type-is": {
+          "files": [
+            "HISTORY.md",
+            "LICENSE",
+            "README.md",
+            "index.js",
+            "package.json"
+          ]
+        },
+        "undefsafe": {
+          ".github": {
+            "workflows": {
+              "files": [
+                "release.yml"
+              ]
+            }
+          },
+          "files": [
+            ".jscsrc",
+            ".jshintrc",
+            ".travis.yml",
+            "LICENSE",
+            "README.md",
+            "example.js",
+            "package.json"
+          ],
+          "lib": {
+            "files": [
+              "undefsafe.js"
+            ]
+          }
+        },
+        "unpipe": {
+          "files": [
+            "HISTORY.md",
+            "LICENSE",
+            "README.md",
+            "index.js",
+            "package.json"
+          ]
+        },
+        "vary": {
+          "files": [
+            "HISTORY.md",
+            "LICENSE",
+            "README.md",
+            "index.js",
+            "package.json"
+          ]
+        },
+        "webidl-conversions": {
+          "files": [
+            "LICENSE.md",
+            "README.md",
+            "package.json"
+          ],
+          "lib": {
+            "files": [
+              "index.js"
+            ]
+          }
+        },
+        "whatwg-url": {
+          "files": [
+            "LICENSE.txt",
+            "README.md",
+            "index.js",
+            "package.json",
+            "webidl2js-wrapper.js"
+          ],
+          "lib": {
+            "files": [
+              "Function.js",
+              "URL-impl.js",
+              "URL.js",
+              "URLSearchParams-impl.js",
+              "URLSearchParams.js",
+              "VoidFunction.js",
+              "encoding.js",
+              "infra.js",
+              "percent-encoding.js",
+              "url-state-machine.js",
+              "urlencoded.js",
+              "utils.js"
+            ]
+          }
+        },
+        "wrappy": {
+          "files": [
+            "LICENSE",
+            "README.md",
+            "package.json",
+            "wrappy.js"
+          ]
+        }
+      },
+      "routes": {
+        "files": [
+          "userRoutes.js"
+        ]
+      }
+    }
+  },
+  "progress": {
+    "modules": {
+      "authentication": {
+        "completed": true,
+        "lastUpdate": "2024-06-15"
+      },
+      "database": {
+        "completed": false,
+        "lastUpdate": "2024-06-10"
+      },
+      "frontend": {
+        "completed": false
+      }
+    },
+    "overallCompletion": 30
+  }
+}
