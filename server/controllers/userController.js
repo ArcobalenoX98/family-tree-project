@@ -6,12 +6,15 @@ const register = async(req,res) =>{
 
     const{ email,password,nickname } = req.body;
     if(!email || !password){
+        console.log('缺少必要字段')
         return res.status(400).json({ message: 'Required fields are missing'})
     }
 
     try{
         //check the user regist or not
         const existingUser = await User.findOne({ email });
+        console.log('existingUser:',existingUser);
+
         if(existingUser){
             return res.status(400).json({ message:'The email address has already been registed'});
         }

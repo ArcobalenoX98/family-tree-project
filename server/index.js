@@ -5,6 +5,8 @@ require('dotenv').config();
 
 const connectDB = require('./config/db')
 const userRoutes = require('./routes/userRoutes');
+const membersRouter = require('./routes/members');
+console.log('** membersRouter loaded **');
 const { get } = require('mongoose');
 
 const app = express();
@@ -24,6 +26,10 @@ app.use((req, res, next) => {
 
 //routing example
 app.use('/api/users',userRoutes);
+app.use('api/members',membersRouter);
+app.get('/',(req,res) => {
+  res.status(200).json({ message: 'Members route is working'});
+})
 app.get('/api/users/test', (req, res) => {
   res.send('the route hangs on the authentication successful');
 });
