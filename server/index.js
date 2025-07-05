@@ -26,7 +26,7 @@ app.use((req, res, next) => {
 
 //routing example
 app.use('/api/users',userRoutes);
-app.use('api/members',membersRouter);
+app.use('/api/members',membersRouter);
 app.get('/',(req,res) => {
   res.status(200).json({ message: 'Members route is working'});
 })
