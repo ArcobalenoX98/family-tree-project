@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import RegisterView from '..//views/RegisterView.vue'
+import RegisterView from '../views/RegisterView.vue'
+import TreeView from '../views/TreeView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -14,6 +15,11 @@ const router = createRouter({
       component: RegisterView
     },
     // 添加其他路由...
+    {
+      path: '/tree',
+      name: 'tree',
+      component: TreeView
+    }
   ]
 })
 
