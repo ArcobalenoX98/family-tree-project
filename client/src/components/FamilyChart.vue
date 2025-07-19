@@ -1,53 +1,54 @@
 <template>
-  <div ref="container" class="family-chart-wrapper"></div>
+  <div id="FamilyChart" class="f3" style="width:100%;height:900px;margin:auto;background-color:rgb(33,33,33);color:#fff;"></div>
 </template>
 
-<script setup>
-import { ref, onMounted, watch } from 'vue'
-import axios from 'axios'
-import FamilyChart from 'family-chart'
+<script>
+import f3 from 'family-chart';  // npm install family-chart@0.7.0 or yarn add family-chart@0.7.0
+import 'family-chart/styles/family-chart.css';
+//import axios from 'axios';
+     
+export default {
+  name: "FamilyChart",
+  props:{
+    data:{
+      type:Array,
+      required:true
+    }
+  },
+  async mounted(){
+    initChart(this.data);
 
-const props = defineProps({
-  rootId: { type: String, required: true }
-})
-
-const container = ref(null)
-let chart
-
-async function loadTree() {
-  const { data } = await axios.get(`/api/members/${props.rootId}/tree`)
-  const formatted = formatForFamilyChart(data)
-  if (!chart) {
-    chart = new FamilyChart({ container: container.value, options: { /* 可定制样式 */ } })
-    chart.load(formatted)
-    chart.render()
-  } else {
-    chart.load(formatted)
-    chart.render()
+    function initChart(data) {
+      const f3Chart = f3.createChart('#FamilyChart', data)
+        .setTransitionTime(1000)
+        .setCardXSpacing(250)
+        .setCardYSpacing(150)
+        .setSingleParentEmptyCard(true, {label: 'ADD'})
+        .setShowSiblingsOfMain(false)
+        .setOrientationVertical()
+    
+      const f3Card = f3Chart.setCard(f3.CardHtml)
+        .setCardDisplay([["first name","last name"],["birthday"]])
+        .setCardDim({"width":100,"height":100,"img_width":90,"img_height":90})
+        .setMiniTree(true)
+        .setStyle('imageCircle')
+        .setOnHoverPathToMain()
+    
+      
+      const f3EditTree = f3Chart.editTree()
+        .fixed(true)
+        .setFields(["first name","last name","birthday","avatar"])
+        .setEditFirst(true)
+        .setCardClickOpen(f3Card)
+      
+      f3EditTree.setEdit()
+    
+      f3Chart.updateTree({initial: true})
+      f3EditTree.open(f3Chart.getMainDatum())
+    
+      f3Chart.updateTree({initial: true})
+    }
   }
-}
-
-onMounted(loadTree)
-watch(() => props.rootId, loadTree)
-
-// 格式转换函数
-function formatForFamilyChart(data) {
-  return {
-    id: data._id,
-    name: data.name,
-    gender: data.gender,
-    spouses: [],
-    parents: data.ancestors.map(a => a._id),
-    children: data.children.concat(data.descendants.map(d => d._id)),
-    items: [data, ...data.ancestors, ...data.descendants]
-    // 若 ancestors/descendants 没包括 parents field，需补全数据关联
-  }
-}
+};
 </script>
-
-<style>
-.family-chart-wrapper {
-  width: 100%;
-  height: 100%;
-}
-</style>
+<style></style>

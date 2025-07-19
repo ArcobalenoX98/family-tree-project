@@ -4,29 +4,41 @@ const cors = require('cors');
 require('dotenv').config();
 
 const connectDB = require('./config/db')
-const userRoutes = require('./routes/userRoutes');
+const userRoutes = require('./routes/userRoutes');  //挂载路由的位置
 const membersRouter = require('./routes/members');
+const postsRoute = require('./routes/posts');
+const slidesRoute = require('./routes/slides');
+const profileRoute = require('./routes/profile');
+
 console.log('** membersRouter loaded **');
 const { get } = require('mongoose');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-//middle part
+//middle part  用来解析请求，包括json代码，URL代码
 app.use(cors({
     methods:['GET','POST','PUT','DELETE','OPTIONS']
 }));
 app.use(express.json());
-
+app.use(express.urlencoded({ extended:true }));
 
 app.use((req, res, next) => {
   console.log("🔥 middle part already been triggered");
   next();
 });
 
-//routing example
+//routing using example
 app.use('/api/users',userRoutes);
 app.use('/api/members',membersRouter);
+app.use('/api/family',  require('./routes/family'));
+app.use('/api/posts',postsRoute);
+app.use('/api/slides',slidesRoute);
+
+console.log('profileRoute is:', profileRoute);
+console.log('typeof profileRoute:', typeof profileRoute);
+app.use('/api/profile',profileRoute);
+
 app.get('/',(req,res) => {
   res.status(200).json({ message: 'Members route is working'});
 })
