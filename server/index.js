@@ -34,9 +34,6 @@ app.use('/api/members',membersRouter);
 app.use('/api/family',  require('./routes/family'));
 app.use('/api/posts',postsRoute);
 app.use('/api/slides',slidesRoute);
-
-console.log('profileRoute is:', profileRoute);
-console.log('typeof profileRoute:', typeof profileRoute);
 app.use('/api/profile',profileRoute);
 
 app.get('/',(req,res) => {
