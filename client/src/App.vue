@@ -1,30 +1,34 @@
-<script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
-</script>
-
 <template>
-  <div>
-    <a href="https://vite.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
-  </div>
-  <HelloWorld msg="Vite + Vue" />
+  <a-layout style="min-height: 100vh">
+    <!-- 引入独立的全局导航 -->
+    <NavBar />
+
+    <a-layout-content
+      ref="scrollArea"
+      style="padding: 0; overflow-y: auto; height: 100vh"
+      class="main-content"
+    >
+      <!-- 这里将来会渲染不同页面组件 -->
+      <router-view />
+    </a-layout-content>
+
+    <a-layout-footer style="text-align: center">
+      Content FamilyTree  ©2025
+    </a-layout-footer>
+  </a-layout>
 </template>
 
-<style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+<script setup lang="ts">
+import NavBar from '@/components/NavBar.vue'
+
+</script>
+
+<style>
+html {
+  scroll-behavior: smooth;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
+/* 防止全局横向滚动 */
+body {
+  overflow-x: hidden;
 }
 </style>

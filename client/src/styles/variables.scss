@@ -1,0 +1,22 @@
+// — 颜色 —
+$color-primary:   #1f8eed;    // 主色
+$color-secondary: #f5a623;    // 强调色
+$color-bg:        #f9f9f9;    // 页面背景
+$color-text:      #333333;    // 正文文字
+$color-muted:     #777777;    // 次要文字
+
+// — 字体 —
+$font-base:   'Helvetica Neue', Arial, sans-serif;
+$font-size-base: 16px;
+
+// — 间距 & 圆角 —
+$space-xs: 4px;
+$space-sm: 8px;
+$space-md: 16px;
+$space-lg: 24px;
+$border-radius: 8px;
+
+// — 断点（mobile-first） —
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
