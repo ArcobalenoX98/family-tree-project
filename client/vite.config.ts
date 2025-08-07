@@ -17,6 +17,10 @@ export default defineConfig({
         target:'http://localhost:3000', //你的后端服务器地址
         changeOrigin:true,
         rewrite:path => path.replace(/^\/api/,'/api')
+      },
+      '/upload':{
+        target:'http://localhost:3000',  // 媒体文件代理
+        changeOrigin: true
       }
     }
   }

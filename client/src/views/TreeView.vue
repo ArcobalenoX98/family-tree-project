@@ -1,30 +1,23 @@
+<!-- src/views/TreeView.vue -->
 <template>
-  <div class="tree-view-page">
-    <FamilyChart v-if="treeData.length" :data="treeData" />
+  <div style="text-align:center; margin: 16px;">
+    <router-link to="/family/edit">
+      <button style="padding: 8px 16px; background:#1976d2; color:#fff; border:none; border-radius:4px;">
+        编辑家谱
+      </button>
+    </router-link>
   </div>
+  <!-- 仅用于展示，不允许编辑 -->
+  <FamilyChart :editable="false" />
 </template>
 
-<script setup>
-// 从路由中接收 rootId 
-import { useRoute } from 'vue-router'
-import  FamilyChart  from '../components/FamilyChart.vue'
-import { ref,onMounted } from 'vue'
-import axios from 'axios'
-const treeData = ref([])
+<script>
+import FamilyChart from '@/components/FamilyChart.vue';
 
-onMounted(async() =>{
-  const res = await axios.get('/api/family')
-  treeData.value = res.data
-})
-
-const route = useRoute()
-const rootId = route.query.rootId || ''
+export default {
+  name: 'TreeView',
+  components: { FamilyChart }
+};
 </script>
 
-<style scoped>
-.tree-view-page {
-  width: 100%;
-  height: 100%; /* 让容器撑满视口高度 */
-  overflow: auto;
-}
-</style>
+<style scoped></style>

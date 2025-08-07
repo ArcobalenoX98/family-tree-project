@@ -1,7 +1,14 @@
+//import bodyParser from 'body-parser'
+const bodyParser = require('body-parser');
 const express = require('express');
 const multer  = require('multer');
 const Post    = require('../models/Post');
 const router  = express.Router();
+
+
+//middlepart
+router.use(bodyParser.urlencoded({ extended: true }))
+router.use(bodyParser.json())
 
 // 使用磁盘存储：将上传文件保存在项目根目录的 uploads/ 目录
 const storage = multer.diskStorage({
