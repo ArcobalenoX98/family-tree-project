@@ -47,7 +47,11 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 //middle part  用来解析请求，包括json代码，URL代码
+const allow = (process.env.CORS_ORIGIN ||'').split(',').filter(Boolean)
 app.use(cors({
+    origin: allow.length ? allow :true,
+    credentials:true,
+    allowedHeaders:['Content-Type','Authorization'],
     methods:['GET','POST','PUT','DELETE','OPTIONS']
 }));
 app.use(express.json());
@@ -61,6 +65,7 @@ app.use((req, res, next) => {
 
 // 关键配置：暴露 uploads 目录为静态资源
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
+
 
 //routing using example
 app.use('/api/users',userRoutes);
