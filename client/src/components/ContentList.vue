@@ -58,7 +58,7 @@ const selectedPost = ref(null)
 // 1.抽出一个fetchpost 方法，供初次加载和更新后重用
 async function fetchPosts(){
   try{
-    const { data } = await axios.get('${import.meta.env.VITE_API_BASE}/posts')
+    const { data } = await axios.get(import.meta.env.VITE_API_BASE + '/posts')
     posts.value = data
   }catch(err){
     console.error('加载帖子列表失败：',err)

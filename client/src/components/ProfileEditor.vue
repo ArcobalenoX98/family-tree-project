@@ -44,7 +44,7 @@ export default defineComponent({
     const profile = ref({ name: '', avatar: '', bio: '' })
 
     async function fetchProfile() {
-      const res = await axios.get('${import.meta.env.VITE_API_BASE}/profile')
+      const res = await axios.get(import.meta.env.VITE_API_BASE + '/profile')
       Object.assign(profile.value, res.data || {})
     }
 
@@ -62,7 +62,7 @@ export default defineComponent({
       }
 
       // 一次请求完成文件上传和资料更新
-      const res = await axios.put('${import.meta.env.VITE_API_BASE}/profile', profileForm, {
+      const res = await axios.put(import.meta.env.VITE_API_BASE + '/profile', profileForm, {
         headers: { 'Content-Type': 'multipart/form-data' }
       })
       

@@ -22,7 +22,7 @@ export default defineComponent({
     const profile = ref<{name?: string; avatar?: string; bio?: string}>({})
     onMounted(async () => {
       try {
-        const res = await axios.get('${import.meta.env.VITE_API_BASE}/profile')
+        const res = await axios.get(import.meta.env.VITE_API_BASE + '/profile')
         profile.value = res.data
       } catch (error) {
         console.error(error)

@@ -42,7 +42,7 @@ export default defineComponent({
   setup() {
     const slides = ref<{ _id:string; title:string; imageUrl:string; order:number }[]>([])
     async function fetch() {
-      const res = await axios.get('${import.meta.env.VITE_API_BASE}/slides')
+      const res = await axios.get(import.meta.env.VITE_API_BASE + '/slides')
       // 👉 在这里打印整个响应，检查 status / data / headers
       console.log('Slides response:', res)
       slides.value = res.data.sort((a:any,b:any)=>a.order-b.order) // 保持排序逻辑

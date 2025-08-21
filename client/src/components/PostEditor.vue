@@ -96,7 +96,7 @@ export default defineComponent({
 
       try {
         //4.发请求时加onUploadProgress
-        const res = await axios.post('${import.meta.env.VITE_API_BASE}/posts', form, {
+        const res = await axios.post(import.meta.env.VITE_API_BASE + '/posts', form, {
           headers: { 'Content-Type': 'multipart/form-data' }
         })
         console.log('创建成功：', res.data)

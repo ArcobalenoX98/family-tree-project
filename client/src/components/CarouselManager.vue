@@ -55,7 +55,7 @@ export default defineComponent({
     const form = ref({ title: '', imageUrl: '', order: 0 })
 
     async function fetchSlides() {
-      const res = await axios.get('${import.meta.env.VITE_API_BASE}/slides')
+      const res = await axios.get(import.meta.env.VITE_API_BASE + '/slides')
       slides.value = res.data
     }
 
@@ -70,7 +70,7 @@ export default defineComponent({
       formData.append('title', form.value.title)
       formData.append('order', form.value.order)
       files.value.forEach(f => formData.append('image', f))
-      await axios.post('${import.meta.env.VITE_API_BASE}/slides', formData, {
+      await axios.post(import.meta.env.VITE_API_BASE + '/slides', formData, {
         headers: { 'Content-Type': 'multipart/form-data' }
       })
 
@@ -82,7 +82,7 @@ export default defineComponent({
     }
 
     async function deleteSlide(id: string) {
-      await axios.delete(`${import.meta.env.VITE_API_BASE}/slides/${id}`)
+      await axios.delete(import.meta.env.VITE_API_BASE + `/slides/${id}`)
       fetchSlides()
     }
 
