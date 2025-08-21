@@ -12,7 +12,6 @@ const familyRoutes = require('./routes/family');
 const postsRoute = require('./routes/posts');
 const slidesRoute = require('./routes/slides');
 const profileRoute = require('./routes/profile');
-const cors = require('cors'); //引入CORS
 
 // —— 新增：引入 mongoose 和 Family 模型，并定义初始成员数据 —— 
 const mongoose = require('mongoose');
