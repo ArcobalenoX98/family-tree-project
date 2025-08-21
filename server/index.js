@@ -12,6 +12,7 @@ const familyRoutes = require('./routes/family');
 const postsRoute = require('./routes/posts');
 const slidesRoute = require('./routes/slides');
 const profileRoute = require('./routes/profile');
+const cors = require('cors'); //引入CORS
 
 // —— 新增：引入 mongoose 和 Family 模型，并定义初始成员数据 —— 
 const mongoose = require('mongoose');
@@ -56,7 +57,9 @@ app.use(cors({
 }));
 app.use(express.json());
 app.use(express.urlencoded({ extended:true }));
-//app.use('uploads',express.static('uploads'));
+app.use(cors({
+  origin:'https://family-tree-project-phi.vercel.app'
+}))
 
 app.use((req, res, next) => {
   console.log("🔥 middle part already been triggered");
