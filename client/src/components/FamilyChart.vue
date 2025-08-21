@@ -43,7 +43,7 @@ export default {
     // 从后端获取所有成员
     async fetchAll() {
       try {
-        const res = await axios.get('/api/family');
+        const res = await axios.get('${import.meta.env.VITE_API_BASE}/family');
         return res.data;
       } catch (err) {
         console.error('拉取成员列表失败', err);
@@ -156,10 +156,10 @@ export default {
                 const isObjectId = id => /^[0-9a-fA-F]{24}$/.test(id);
                 if (datum.id && isObjectId(datum.id)) {
                   // 有 id → 更新
-                  await axios.put(`/api/family/${datum.id}`, payload);
+                  await axios.put(`${import.meta.env.VITE_API_BASE}/family/${datum.id}`, payload);
                 } else {
                   //新增成员的情况
-                  const createRes = await axios.post('/api/family', payload);
+                  const createRes = await axios.post('${import.meta.env.VITE_API_BASE}/family', payload);
                   const newId = createRes.data._id || createRes.data.id;
                   //调用封装的同步函数，将新成员ID写回相关成员
                   await this.syncNewMemberRelations(newId, payload);
@@ -193,12 +193,12 @@ export default {
         // 1. 如果新增成员有配偶关系 -> 同步到现有配偶的 spouses 列表
         if (payload.spouses && payload.spouses.length > 0) {
           const mainId = payload.spouses[0];  // 已存在配偶的 ID
-          const mainRes = await axios.get(`/api/family/${mainId}`);
+          const mainRes = await axios.get(`${import.meta.env.VITE_API_BASE}/family/${mainId}`);
           const existingSpouses = Array.isArray(mainRes.data.rels.spouses) 
             ? mainRes.data.rels.spouses.map(String) 
             : [];
           const updatedSpouses = Array.from(new Set([...existingSpouses, newId]));
-          await axios.put(`/api/family/${mainId}`, { spouses: updatedSpouses });
+          await axios.put(`${import.meta.env.VITE_API_BASE}/family/${mainId}`, { spouses: updatedSpouses });
         }
 
         // 2. 如果新增成员有子女关系 -> 表示此新增成员是作为父/母被添加
@@ -207,35 +207,35 @@ export default {
           // 根据新增成员性别，确定更新子女的 father 或 mother 列表
           const newGender = payload.gender;
           const parentField = (newGender === 'M' ? 'father' : 'mother');
-          const childRes = await axios.get(`/api/family/${childId}`);
+          const childRes = await axios.get(`${import.meta.env.VITE_API_BASE}/family/${childId}`);
           const existingParents = Array.isArray(childRes.data.rels[parentField]) 
             ? childRes.data.rels[parentField].map(String) 
             : [];
           const updatedParents = Array.from(new Set([...existingParents, newId]));
-          await axios.put(`/api/family/${childId}`, { [parentField]: updatedParents });
+          await axios.put(`${import.meta.env.VITE_API_BASE}/family/${childId}`, { [parentField]: updatedParents });
         }
 
         // 3. 如果新增成员有 father 列表 -> 表示此新增成员是作为子女被添加，有现有父亲
         if (payload.father && payload.father.length > 0) {
           for (const parentId of payload.father) {
-            const parentRes = await axios.get(`/api/family/${parentId}`);
+            const parentRes = await axios.get(`${import.meta.env.VITE_API_BASE}/family/${parentId}`);
             const existingChildren = Array.isArray(parentRes.data.rels.children) 
               ? parentRes.data.rels.children.map(String) 
               : [];
             const updatedChildren = Array.from(new Set([...existingChildren, newId]));
-            await axios.put(`/api/family/${parentId}`, { children: updatedChildren });
+            await axios.put(`${import.meta.env.VITE_API_BASE}/family/${parentId}`, { children: updatedChildren });
           }
         }
 
         // 4. 如果新增成员有 mother 列表 -> 表示此新增成员是作为子女被添加，有现有母亲
         if (payload.mother && payload.mother.length > 0) {
           for (const parentId of payload.mother) {
-            const parentRes = await axios.get(`/api/family/${parentId}`);
+            const parentRes = await axios.get(`${import.meta.env.VITE_API_BASE}/family/${parentId}`);
             const existingChildren = Array.isArray(parentRes.data.rels.children) 
               ? parentRes.data.rels.children.map(String) 
               : [];
             const updatedChildren = Array.from(new Set([...existingChildren, newId]));
-            await axios.put(`/api/family/${parentId}`, { children: updatedChildren });
+            await axios.put(`${import.meta.env.VITE_API_BASE}/family/${parentId}`, { children: updatedChildren });
           }
         }
       } catch (err) {
