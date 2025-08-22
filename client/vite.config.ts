@@ -7,6 +7,7 @@ export default defineConfig(({ mode }) =>{
   const env = loadEnv(mode, process.cwd())
   console.log('Mode:',mode)
   console.log('VITE_API_BASE:',env.VITE_API_BASE)
+  console.log('VITE_MEDIA_BASE:', process.env.VITE_MEDIA_BASE)
 
   return{
   plugins: [vue()],

@@ -6,7 +6,7 @@
           <div class="slide" style="position: relative; text-align: center;">
             <!-- 新增：渲染图片 -->
             <img 
-              :src="slide.imageUrl" 
+              :src="`${import.meta.env.VITE_MEDIA_BASE}${slide.imageUrl}`" 
               :alt="slide.title" 
               style="width: 100%; height: 100%; display: block; margin: 0 auto;"
             />

@@ -17,13 +17,13 @@
         <template v-if="post.media && post.media.length">
           <img
             v-if="isImage(post.media[0])"
-            :src="post.media[0].url"
+            :src="`${import.meta.env.VITE_MEDIA_BASE}${post.media[0].url}`"
             alt="封面"
             class="media-preview"
           />
           <video
             v-else
-            :src="post.media[0].url"
+            :src="`${import.meta.env.VITE_MEDIA_BASE}${post.media[0].url}`"
             muted
             preload="metadata"
             class="media-preview"

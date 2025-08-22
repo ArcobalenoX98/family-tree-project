@@ -2,7 +2,7 @@
   <div class="profile-block">
     <h2>Personal Profile</h2>
     <div v-if="profile.name" class="profile-content">
-      <img v-if="profile.avatar" :src="profile.avatar" class="avatar" />
+      <img v-if="profile.avatar" :src="`${import.meta.env.VITE_MEDIA_BASE}${profile.avatar}`" class="avatar" />
       <div class="profile-info">
         <h3>{{ profile.name }}</h3>
         <p>{{ profile.bio }}</p>
