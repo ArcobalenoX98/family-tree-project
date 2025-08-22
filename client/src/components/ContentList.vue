@@ -17,13 +17,13 @@
         <template v-if="post.media && post.media.length">
           <img
             v-if="isImage(post.media[0])"
-            :src="`${import.meta.env.VITE_MEDIA_BASE}${post.media[0].url}`"
+            :src="`${ mediaBase }${post.media[0].url}`"
             alt="封面"
             class="media-preview"
           />
           <video
             v-else
-            :src="`${import.meta.env.VITE_MEDIA_BASE}${post.media[0].url}`"
+            :src="`${ mediaBase }${post.media[0].url}`"
             muted
             preload="metadata"
             class="media-preview"
@@ -54,6 +54,7 @@ import DetailModal from './DetailModal.vue'
 const posts = ref([])
 const showModal = ref(false)
 const selectedPost = ref(null)
+const mediaBase = import.meta.env.VITE_MEDIA_BASE
 
 // 1.抽出一个fetchpost 方法，供初次加载和更新后重用
 async function fetchPosts(){

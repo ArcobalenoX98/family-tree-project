@@ -2,7 +2,7 @@
   <div class="profile-block">
     <h2>Personal Profile</h2>
     <div v-if="profile.name" class="profile-content">
-      <img v-if="profile.avatar" :src="`${import.meta.env.VITE_MEDIA_BASE}${profile.avatar}`" class="avatar" />
+      <img v-if="profile.avatar" :src="`${ mediaBase }${profile.avatar}`" class="avatar" />
       <div class="profile-info">
         <h3>{{ profile.name }}</h3>
         <p>{{ profile.bio }}</p>
@@ -20,6 +20,7 @@ export default defineComponent({
   name: 'ProfileBlock',
   setup() {
     const profile = ref<{name?: string; avatar?: string; bio?: string}>({})
+    const mediaBase = import.meta.env.VITE_MEDIA_BASE
     onMounted(async () => {
       try {
         const res = await axios.get(import.meta.env.VITE_API_BASE + '/profile')
@@ -28,7 +29,7 @@ export default defineComponent({
         console.error(error)
       }
     })
-    return { profile }
+    return { profile , mediaBase }
   }
 })
 </script>

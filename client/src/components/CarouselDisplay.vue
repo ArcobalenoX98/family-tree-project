@@ -6,7 +6,7 @@
           <div class="slide" style="position: relative; text-align: center;">
             <!-- 新增：渲染图片 -->
             <img 
-              :src="`${import.meta.env.VITE_MEDIA_BASE}${slide.imageUrl}`" 
+              :src="`${mediaBase}${slide.imageUrl}`" 
               :alt="slide.title" 
               style="width: 100%; height: 100%; display: block; margin: 0 auto;"
             />
@@ -31,6 +31,7 @@ import axios from 'axios'
 import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
 import 'vue3-carousel/dist/carousel.css' // 导入默认样式（基础样式）
 
+
 export default defineComponent({
   name: 'CarouselDisplay',
   components: {
@@ -41,6 +42,7 @@ export default defineComponent({
   },
   setup() {
     const slides = ref<{ _id:string; title:string; imageUrl:string; order:number }[]>([])
+    const mediaBase = import.meta.env.VITE_MEDIA_BASE //将环境变量链接接入
     async function fetch() {
       const res = await axios.get(import.meta.env.VITE_API_BASE + '/slides')
       // 👉 在这里打印整个响应，检查 status / data / headers
@@ -48,7 +50,7 @@ export default defineComponent({
       slides.value = res.data.sort((a:any,b:any)=>a.order-b.order) // 保持排序逻辑
     }
     onMounted(fetch)
-    return { slides }
+    return { slides ,mediaBase}
   }
 })
 </script>
